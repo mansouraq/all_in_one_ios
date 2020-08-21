@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PopularPromoCVC" id="BaK-5r-7GF" customClass="PopularPromoCVC" customModule="all_in_1_app_ios_1407" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="315" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="315" height="140"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="group3Copy2" translatesAutoresizingMaskIntoConstraints="NO" id="SzC-ea-420">
+                        <rect key="frame" x="0.0" y="0.0" width="315" height="140"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="top" secondItem="SzC-ea-420" secondAttribute="top" id="QvF-l9-5FU"/>
+                <constraint firstAttribute="trailing" secondItem="SzC-ea-420" secondAttribute="trailing" id="afy-AB-KJx"/>
+                <constraint firstItem="SzC-ea-420" firstAttribute="leading" secondItem="BaK-5r-7GF" secondAttribute="leading" id="gsp-8I-pHV"/>
+                <constraint firstAttribute="bottom" secondItem="SzC-ea-420" secondAttribute="bottom" id="kYe-NJ-uP2"/>
+            </constraints>
+            <connections>
+                <outlet property="ImgVwPopularPromo" destination="SzC-ea-420" id="Jmh-43-mi2"/>
+            </connections>
+            <point key="canvasLocation" x="131.15942028985509" y="124.55357142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="group3Copy2" width="327" height="155"/>
+    </resources>
+</document>

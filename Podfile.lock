@@ -1,0 +1,40 @@
+PODS:
+  - FSCalendar (2.8.1)
+  - IQKeyboardManager (6.5.5)
+  - JJFloatingActionButton (2.5.0)
+  - PinterestLayout (1.0.3)
+  - SKCountryPicker (1.2.9)
+  - SkyFloatingLabelTextField (3.8.0)
+  - UBottomSheet (1.0.7)
+
+DEPENDENCIES:
+  - FSCalendar
+  - IQKeyboardManager
+  - JJFloatingActionButton
+  - PinterestLayout
+  - SKCountryPicker
+  - SkyFloatingLabelTextField
+  - UBottomSheet
+
+SPEC REPOS:
+  trunk:
+    - FSCalendar
+    - IQKeyboardManager
+    - JJFloatingActionButton
+    - PinterestLayout
+    - SKCountryPicker
+    - SkyFloatingLabelTextField
+    - UBottomSheet
+
+SPEC CHECKSUMS:
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  JJFloatingActionButton: fdc3aefb0f28f04d0f988fa25d5fac97028a9ea7
+  PinterestLayout: f1c7ec0254ffa842d69f1b43e4436c8ded4359b9
+  SKCountryPicker: 7ad1e7dfb482cfb26855e33c2d70dbf1eaf218fe
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  UBottomSheet: f5b325d5f06e952ae337d2d806307f61fe806a79
+
+PODFILE CHECKSUM: e190e4413043f1b0b5706462cd1f591b0c8d9463
+
+COCOAPODS: 1.8.3

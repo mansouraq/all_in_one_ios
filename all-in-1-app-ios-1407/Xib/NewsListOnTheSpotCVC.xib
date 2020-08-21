@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Text-Bold.ttf">
+            <string>SFUIText-Bold</string>
+        </array>
+        <array key="SFProText-Regular.ttf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="NewsListOnTheSpotCVC" customModule="all_in_1_app_ios_1407" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="211" height="196"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="211" height="196"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgNews-2" translatesAutoresizingMaskIntoConstraints="NO" id="TmU-XJ-cCc">
+                        <rect key="frame" x="0.0" y="0.0" width="211" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="hWo-a4-Z2j"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Living In The Now Use It To Enrich Your Life" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZX-LK-y6s">
+                        <rect key="frame" x="0.0" y="108" width="191" height="31.5"/>
+                        <fontDescription key="fontDescription" name="SFUIText-Bold" family="SF UI Text" pointSize="13"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NBC News" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vqh-co-qrg">
+                        <rect key="frame" x="31" y="150.5" width="160" height="14.5"/>
+                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="12"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoNewsProviderSmall" translatesAutoresizingMaskIntoConstraints="NO" id="mmm-O5-Yrz">
+                        <rect key="frame" x="0.0" y="149.5" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="hQN-AS-fZc"/>
+                            <constraint firstAttribute="height" constant="16" id="iHc-Gg-MhS"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Vqh-co-qrg" firstAttribute="leading" secondItem="mmm-O5-Yrz" secondAttribute="trailing" constant="15" id="1ov-Sz-TLC"/>
+                <constraint firstAttribute="trailing" secondItem="pZX-LK-y6s" secondAttribute="trailing" constant="20" id="5Af-KR-e2X"/>
+                <constraint firstItem="pZX-LK-y6s" firstAttribute="top" secondItem="TmU-XJ-cCc" secondAttribute="bottom" constant="8" id="AIW-y4-LYN"/>
+                <constraint firstItem="Vqh-co-qrg" firstAttribute="centerY" secondItem="mmm-O5-Yrz" secondAttribute="centerY" id="M42-r7-K1j"/>
+                <constraint firstItem="mmm-O5-Yrz" firstAttribute="top" secondItem="pZX-LK-y6s" secondAttribute="bottom" constant="10" id="PTO-I6-GtI"/>
+                <constraint firstItem="TmU-XJ-cCc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="W1a-wY-wCW"/>
+                <constraint firstItem="Vqh-co-qrg" firstAttribute="trailing" secondItem="pZX-LK-y6s" secondAttribute="trailing" id="X76-PX-g5k"/>
+                <constraint firstItem="pZX-LK-y6s" firstAttribute="leading" secondItem="mmm-O5-Yrz" secondAttribute="leading" id="dCT-yx-SfO"/>
+                <constraint firstItem="TmU-XJ-cCc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="e6Y-he-wfT"/>
+                <constraint firstItem="pZX-LK-y6s" firstAttribute="leading" secondItem="TmU-XJ-cCc" secondAttribute="leading" id="ht0-J8-7px"/>
+                <constraint firstItem="TmU-XJ-cCc" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="rMn-M1-5R7"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="211" height="196"/>
+            <point key="canvasLocation" x="-129.71014492753625" y="107.8125"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="imgNews-2" width="140" height="102"/>
+        <image name="logoNewsProviderSmall" width="16" height="16"/>
+    </resources>
+</document>

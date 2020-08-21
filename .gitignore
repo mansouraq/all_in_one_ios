@@ -1,0 +1,8 @@
+# Xcode
+*.DS_Store
+
+#CocoaPods
+*/Pods
+*.xcworkspacedata
+*.xcworkspace
+*.

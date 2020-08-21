@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Text-Bold.ttf">
+            <string>SFUIText-Bold</string>
+        </array>
+        <array key="SFProText-Regular.ttf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="280" id="KGk-i7-Jjw" customClass="NewsListHeaderTVC" customModule="Mansour" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="473" height="280"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="473" height="280"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KBi-r7-hPy">
+                        <rect key="frame" x="0.0" y="0.0" width="473" height="280"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgNews-1" translatesAutoresizingMaskIntoConstraints="NO" id="P9Q-bg-JVt">
+                                <rect key="frame" x="0.0" y="0.0" width="473" height="280"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="831-zo-84I">
+                                <rect key="frame" x="410" y="20" width="48" height="48"/>
+                                <state key="normal" image="more2_wht"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Increasing Prosperity With Positive Thinking" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADd-Bo-tYi">
+                                <rect key="frame" x="20" y="211.5" width="433" height="17.5"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Bold" family="SF UI Text" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CNBC" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UmA-2T-jJJ">
+                                <rect key="frame" x="51" y="250" width="34.5" height="14"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Bold" family="SF UI Text" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POLITICS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Enp-Kn-28i">
+                                <rect key="frame" x="20" y="192.5" width="433" height="14"/>
+                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoNewsProviderSmall" translatesAutoresizingMaskIntoConstraints="NO" id="tpn-GK-u2a">
+                                <rect key="frame" x="20" y="249" width="16" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="16" id="VYh-II-aqq"/>
+                                    <constraint firstAttribute="height" constant="16" id="ytO-cS-ME2"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEF-e6-VQL">
+                                <rect key="frame" x="100.5" y="250" width="13" height="14"/>
+                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="12"/>
+                                <color key="textColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="P9Q-bg-JVt" secondAttribute="trailing" id="3cD-gx-Ypd"/>
+                            <constraint firstItem="tpn-GK-u2a" firstAttribute="top" secondItem="ADd-Bo-tYi" secondAttribute="bottom" constant="20" id="5Cl-m5-Raz"/>
+                            <constraint firstItem="UmA-2T-jJJ" firstAttribute="centerY" secondItem="tpn-GK-u2a" secondAttribute="centerY" id="7YL-nX-R3m"/>
+                            <constraint firstAttribute="bottom" secondItem="P9Q-bg-JVt" secondAttribute="bottom" id="9oq-EP-Gj1"/>
+                            <constraint firstItem="831-zo-84I" firstAttribute="top" secondItem="KBi-r7-hPy" secondAttribute="top" constant="20" id="CU8-NH-iop"/>
+                            <constraint firstAttribute="trailing" secondItem="ADd-Bo-tYi" secondAttribute="trailing" constant="20" id="DIY-ek-Me0"/>
+                            <constraint firstItem="bEF-e6-VQL" firstAttribute="leading" secondItem="UmA-2T-jJJ" secondAttribute="trailing" constant="15" id="G8K-kg-h33"/>
+                            <constraint firstItem="ADd-Bo-tYi" firstAttribute="leading" secondItem="tpn-GK-u2a" secondAttribute="leading" id="OpD-Di-oif"/>
+                            <constraint firstItem="UmA-2T-jJJ" firstAttribute="leading" secondItem="tpn-GK-u2a" secondAttribute="trailing" constant="15" id="XTe-Eg-2mh"/>
+                            <constraint firstItem="bEF-e6-VQL" firstAttribute="centerY" secondItem="UmA-2T-jJJ" secondAttribute="centerY" id="eun-NG-wZD"/>
+                            <constraint firstItem="P9Q-bg-JVt" firstAttribute="leading" secondItem="KBi-r7-hPy" secondAttribute="leading" id="fcL-nf-sj1"/>
+                            <constraint firstItem="Enp-Kn-28i" firstAttribute="leading" secondItem="ADd-Bo-tYi" secondAttribute="leading" id="fvo-kj-b8F"/>
+                            <constraint firstItem="tpn-GK-u2a" firstAttribute="leading" secondItem="KBi-r7-hPy" secondAttribute="leading" constant="20" id="hb6-OM-Cbo"/>
+                            <constraint firstItem="ADd-Bo-tYi" firstAttribute="top" secondItem="Enp-Kn-28i" secondAttribute="bottom" constant="5" id="ndx-XK-gHc"/>
+                            <constraint firstAttribute="bottom" secondItem="tpn-GK-u2a" secondAttribute="bottom" constant="15" id="nmw-Ic-ehC"/>
+                            <constraint firstItem="Enp-Kn-28i" firstAttribute="trailing" secondItem="ADd-Bo-tYi" secondAttribute="trailing" id="oTM-zh-OHZ"/>
+                            <constraint firstItem="P9Q-bg-JVt" firstAttribute="top" secondItem="KBi-r7-hPy" secondAttribute="top" id="s6a-Pu-feA"/>
+                            <constraint firstAttribute="trailing" secondItem="831-zo-84I" secondAttribute="trailing" constant="15" id="ytA-OO-gqq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KBi-r7-hPy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="3hN-d0-CM1"/>
+                    <constraint firstItem="KBi-r7-hPy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="AAx-uj-1V6"/>
+                    <constraint firstAttribute="bottom" secondItem="KBi-r7-hPy" secondAttribute="bottom" id="CmJ-Lf-Wl5"/>
+                    <constraint firstAttribute="trailing" secondItem="KBi-r7-hPy" secondAttribute="trailing" id="m7a-Yy-2PV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="-33" y="123"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="imgNews-1" width="375" height="196"/>
+        <image name="logoNewsProviderSmall" width="16" height="16"/>
+        <image name="more2_wht" width="24" height="24"/>
+    </resources>
+</document>

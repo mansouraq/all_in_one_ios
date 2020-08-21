@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Bold.otf">
+            <string>SFProDisplay-Bold</string>
+        </array>
+        <array key="SFProText-Regular.ttf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PromoCVC" id="oD6-fe-Guo" customClass="PromoCVC" customModule="all_in_1_app_ios_1407" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="315" height="238"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="315" height="238"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hDo-v3-wjO">
+                        <rect key="frame" x="5" y="10" width="305" height="218"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle2" translatesAutoresizingMaskIntoConstraints="NO" id="tG4-uG-Cov">
+                                <rect key="frame" x="0.0" y="0.0" width="305" height="143"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="143" id="d7a-1X-amF"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gift Pack Voucher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WfQ-5I-gYV">
+                                <rect key="frame" x="10" y="151" width="113.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="xpS-Gr-6BQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Riyadh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Le5-v7-ReP">
+                                <rect key="frame" x="10" y="182" width="113.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chv-Gw-I8U">
+                                <rect key="frame" x="201" y="173" width="96" height="30"/>
+                                <color key="backgroundColor" red="0.92538088559999998" green="0.51659089329999996" blue="0.21237811449999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="eoF-hp-9SM"/>
+                                    <constraint firstAttribute="width" constant="96" id="k3n-Lr-byZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                                <state key="normal" title="View detail">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderViewColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Le5-v7-ReP" firstAttribute="leading" secondItem="WfQ-5I-gYV" secondAttribute="leading" id="0dT-mO-RR7"/>
+                            <constraint firstItem="tG4-uG-Cov" firstAttribute="leading" secondItem="hDo-v3-wjO" secondAttribute="leading" id="5no-QA-NwR"/>
+                            <constraint firstItem="Chv-Gw-I8U" firstAttribute="top" secondItem="tG4-uG-Cov" secondAttribute="bottom" constant="30" id="N1e-VF-pyD"/>
+                            <constraint firstItem="Le5-v7-ReP" firstAttribute="top" secondItem="WfQ-5I-gYV" secondAttribute="bottom" constant="10" id="S8U-y9-d7j"/>
+                            <constraint firstAttribute="trailing" secondItem="tG4-uG-Cov" secondAttribute="trailing" id="VUg-46-4Jp"/>
+                            <constraint firstAttribute="trailing" secondItem="Chv-Gw-I8U" secondAttribute="trailing" constant="8" id="fI8-91-uGO"/>
+                            <constraint firstItem="tG4-uG-Cov" firstAttribute="top" secondItem="hDo-v3-wjO" secondAttribute="top" id="gQu-rK-lPF"/>
+                            <constraint firstItem="Le5-v7-ReP" firstAttribute="trailing" secondItem="WfQ-5I-gYV" secondAttribute="trailing" id="mmQ-9n-dal"/>
+                            <constraint firstItem="WfQ-5I-gYV" firstAttribute="top" secondItem="tG4-uG-Cov" secondAttribute="bottom" constant="8" id="wro-kg-bmu"/>
+                            <constraint firstItem="WfQ-5I-gYV" firstAttribute="leading" secondItem="tG4-uG-Cov" secondAttribute="leading" constant="10" id="xXF-sy-leE"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderViewColor">
+                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hDo-v3-wjO" secondAttribute="trailing" constant="5" id="5sv-yF-TCF"/>
+                <constraint firstAttribute="bottom" secondItem="hDo-v3-wjO" secondAttribute="bottom" constant="10" id="PIg-hd-Xjb"/>
+                <constraint firstItem="hDo-v3-wjO" firstAttribute="top" secondItem="oD6-fe-Guo" secondAttribute="top" constant="10" id="R4s-uX-10G"/>
+                <constraint firstItem="hDo-v3-wjO" firstAttribute="leading" secondItem="oD6-fe-Guo" secondAttribute="leading" constant="5" id="h6c-ZC-VAH"/>
+            </constraints>
+            <size key="customSize" width="315" height="238"/>
+            <connections>
+                <outlet property="ImgVwPromo" destination="tG4-uG-Cov" id="YhX-r8-MRg"/>
+                <outlet property="btnViewDetails" destination="Chv-Gw-I8U" id="XEv-Xr-KaS"/>
+            </connections>
+            <point key="canvasLocation" x="100.72463768115942" y="0.0"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="rectangle2" width="311" height="146"/>
+    </resources>
+</document>
