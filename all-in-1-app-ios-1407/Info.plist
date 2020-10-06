@@ -50,6 +50,12 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need to access your camera for scanning QR code</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>We need to access your camera</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

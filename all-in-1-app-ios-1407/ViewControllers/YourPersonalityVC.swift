@@ -40,7 +40,7 @@ class YourPersonalityVC: UIViewController {
             case PersonalityQuestion.gender.rawValue:
                 objYourPersonalityVM.arrMain = objYourPersonalityVM.arrGender
                 lblTitle.text = TitleMessage.gender
-                vwHeader.isHidden = true
+            //vwHeader.isHidden = true
             case PersonalityQuestion.feelings.rawValue:
                 objYourPersonalityVM.arrMain = objYourPersonalityVM.arrFeelings
                 lblTitle.text = TitleMessage.feeling
@@ -51,6 +51,8 @@ class YourPersonalityVC: UIViewController {
             default:
                 break
             }
+        } else {
+            popToBack()
         }
         collViewInfo.reloadData()
     }
@@ -63,11 +65,11 @@ class YourPersonalityVC: UIViewController {
             lblTitle.text = TitleMessage.gender
         case PersonalityQuestion.feelings.rawValue:
             objYourPersonalityVM.arrMain = objYourPersonalityVM.arrFeelings
-            vwHeader.isHidden = false
+            //vwHeader.isHidden = false
             lblTitle.text = TitleMessage.feeling
         case PersonalityQuestion.organized.rawValue:
             objYourPersonalityVM.arrMain = objYourPersonalityVM.arrOrganized
-            vwHeader.isHidden = false
+            //vwHeader.isHidden = false
             lblTitle.text = TitleMessage.oraganized
         default:
             pushToNext(PreferencesVC.className)

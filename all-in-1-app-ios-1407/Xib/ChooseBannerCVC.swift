@@ -13,7 +13,6 @@
 import UIKit
 
 class ChooseBannerCVC: UICollectionViewCell {
-    
     @IBOutlet weak var lblDesc: UILabel!
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var imgVwType: UIImageView!

@@ -29,7 +29,6 @@ class AppointmentListVC: UIViewController {
     }
     
     //MARK:- IBActions
-    
     @IBAction func actionBack(_ sender: Any) {
         popToBack()
     }

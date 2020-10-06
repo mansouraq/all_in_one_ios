@@ -45,7 +45,10 @@ class SelectTypeVC: UIViewController {
         pushToNext(LoginVC.className)
     }
     
-//    @objc func changeImage() {
+    @IBAction func actionBack(_ sender: Any) {
+        popToBack()
+    }
+    //    @objc func changeImage() {
 //        if objSelectTypeVM.changeImageCounter == objSelectTypeVM.arrImages.count {
 //            objSelectTypeVM.changeImageCounter = 0
 //        }

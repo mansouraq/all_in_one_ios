@@ -1,14 +1,14 @@
 //
 /**
-*
-*@copyright : ToXSL Technologies Pvt. Ltd. < www.toxsl.com >
-*@author     : Shiv Charan Panjeta < shiv@toxsl.com >
-*
-* All Rights Reserved.
-* Proprietary and confidential :  All information contained herein is, and remains
-* the property of ToXSL Technologies Pvt. Ltd. and its partners.
-* Unauthorized copying of this file, via any medium is strictly prohibited.
-*/
+ *
+ *@copyright : ToXSL Technologies Pvt. Ltd. < www.toxsl.com >
+ *@author     : Shiv Charan Panjeta < shiv@toxsl.com >
+ *
+ * All Rights Reserved.
+ * Proprietary and confidential :  All information contained herein is, and remains
+ * the property of ToXSL Technologies Pvt. Ltd. and its partners.
+ * Unauthorized copying of this file, via any medium is strictly prohibited.
+ */
 
 
 import UIKit
@@ -37,18 +37,19 @@ class LoginVC: UIViewController {
         lblCountryCode.text = country.dialingCode
         objLoginVM.countryCode = country.dialingCode
     }
-
-     //MARK:- IBActions
-    @IBAction func actionForgotAccount(_ sender: Any) {
+    
+    //MARK:- IBActions
+    @IBAction func actionAlreadyAccount(_ sender: Any) {
+       
     }
     @IBAction func actionRecoveredPassword(_ sender: Any) {
-        
+         pushToNext(ForgotPasswordVC.className)
     }
     @IBAction func actionLogin(_ sender: Any) {
         RootControllerProxy.shared.rootWithDrawer(MainTBC.className)
     }
     @IBAction func actionBack(_ sender: Any) {
-           popToBack()
+        popToBack()
     }
     @IBAction func actionCountryPicker(_ sender: Any) {
         presentCountryPickerScene()

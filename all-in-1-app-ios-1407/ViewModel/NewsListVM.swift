@@ -30,13 +30,10 @@ extension NewsListVC: UICollectionViewDataSource,UICollectionViewDelegate,UIColl
         cell.lblTitle.textColor = objNewsListVM.selectedIndex == indexPath.row ? Color.dustyOrange : .black
         return cell
     }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize{
-        return CGSize(width: 120 , height: 50)
-    }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         objNewsListVM.selectedIndex = indexPath.row
         collectionVwNews.reloadData()
-      }
+    }
 }
 
 extension NewsListVC: UITableViewDelegate,UITableViewDataSource{

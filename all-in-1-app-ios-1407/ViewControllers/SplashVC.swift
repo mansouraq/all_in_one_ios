@@ -20,7 +20,7 @@ class SplashVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         sleep(3)
-        pushToNext(YourPersonalityVC.className)
+        pushToNext(ChooseLanguageVC.className)
     }
 }
 

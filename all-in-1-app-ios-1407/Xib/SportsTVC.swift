@@ -17,15 +17,4 @@ class SportsTVC: UITableViewCell {
     @IBOutlet weak var imgVwSports: UIImageView!
     @IBOutlet weak var imgVw: UIImageView!
     @IBOutlet weak var imgVw1: UIImageView!
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-    
 }

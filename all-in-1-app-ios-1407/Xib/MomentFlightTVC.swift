@@ -46,6 +46,6 @@ extension MomentFlightTVC: UICollectionViewDelegate, UICollectionViewDataSource,
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return sectionIndex == 1 ? CGSize(width: collectionView.frame.size.width/4, height: 90) : CGSize(width: collectionView.frame.size.width, height: collectionView.frame.size.width)
+        return sectionIndex == 1 ? CGSize(width: collectionView.frame.size.width/3, height: 80) : CGSize(width: collectionView.frame.size.width, height: collectionView.frame.size.width)
     }
 }

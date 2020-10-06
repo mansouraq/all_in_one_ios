@@ -27,5 +27,9 @@ class ShippingListVC: UIViewController {
     
     //MARK:- IBActions
     @IBAction func actionBack(_ sender: Any) {
+        popToBack()
+    }
+    @IBAction func actionAddAddress(_ sender: Any) {
+        pushToNext(AddShippingVC.className)
     }
 }

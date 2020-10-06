@@ -30,6 +30,7 @@ class AddShippingVC: UIViewController {
     
     //MARK:- IBActions
     @IBAction func actionBack(_ sender: Any) {
+        popToBack()
     }
     @IBAction func actionSaveAddress(_ sender: Any) {
     }

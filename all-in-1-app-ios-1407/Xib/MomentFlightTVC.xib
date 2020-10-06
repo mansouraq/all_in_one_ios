@@ -18,7 +18,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="290" id="KGk-i7-Jjw" customClass="MomentFlightTVC" customModule="all_in_1_app_ios_1407" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="290" id="KGk-i7-Jjw" customClass="MomentFlightTVC" customModule="Mansour" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="389" height="291"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -28,7 +28,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yGN-PL-XrL">
                         <rect key="frame" x="0.0" y="0.0" width="389" height="291"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="89Q-iA-6tQ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_fly" translatesAutoresizingMaskIntoConstraints="NO" id="89Q-iA-6tQ">
                                 <rect key="frame" x="15" y="15" width="45" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="OAA-Fe-tHA"/>
@@ -78,7 +78,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="boI-aP-YUx">
                                 <rect key="frame" x="75" y="256" width="90" height="25"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pj-zl-6DU" customClass="RoundedButton" customModule="all_in_1_app_ios_1407" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pj-zl-6DU" customClass="RoundedButton" customModule="Mansour" customModuleProvider="target">
                                         <rect key="frame" x="5" y="0.0" width="26.5" height="25"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" image="ic_like"/>
@@ -86,7 +86,7 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jxD-kk-RN3" customClass="RoundedButton" customModule="all_in_1_app_ios_1407" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jxD-kk-RN3" customClass="RoundedButton" customModule="Mansour" customModuleProvider="target">
                                         <rect key="frame" x="31.5" y="0.0" width="27" height="25"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" image="ic_red_heart"/>
@@ -94,7 +94,7 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y79-PU-tKe" customClass="RoundedButton" customModule="all_in_1_app_ios_1407" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y79-PU-tKe" customClass="RoundedButton" customModule="Mansour" customModuleProvider="target">
                                         <rect key="frame" x="58.5" y="0.0" width="26.5" height="25"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" image="ic_anger"/>
@@ -193,6 +193,7 @@
     </objects>
     <resources>
         <image name="ic_anger" width="13" height="13"/>
+        <image name="ic_fly" width="39.5" height="39.5"/>
         <image name="ic_like" width="13.5" height="13.5"/>
         <image name="ic_red_heart" width="13.5" height="12"/>
         <image name="more" width="24" height="24"/>

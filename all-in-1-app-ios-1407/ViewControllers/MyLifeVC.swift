@@ -23,15 +23,14 @@ class MyLifeVC: UIViewController {
     //MARK:- Life Cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     //MARK:- IBActions
     @IBAction func actionStory(_ sender: UIButton) {
-        pushToNext(FavouriteVC.className)
+        //pushToNext(CreateEventVC.className)
     }
     @IBAction func actionDream(_ sender: UIButton) {
-        pushToNext(MarketVC.className)
+        pushToNext(DreamListVC.className)
     }
     @IBAction func actionTodDo(_ sender: UIButton) {
         pushToNext(DueTodayTaskVC.className)

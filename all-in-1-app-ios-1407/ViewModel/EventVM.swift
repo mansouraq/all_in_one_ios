@@ -31,7 +31,7 @@ extension EventsVC: UITableViewDataSource, UITableViewDelegate {
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        pushToNext("MyTicketVC")
+        pushToNext(MyTicketListVC.className)
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 125
@@ -83,7 +83,7 @@ extension EventsVC: UICollectionViewDataSource,UICollectionViewDelegate,UICollec
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if collectionView == collVwEvent{
-            return CGSize(width: 62, height: 36)
+            return CGSize(width: 76, height: 48)
         }else if collectionView == collVwPopularPromo{
             return CGSize(width: 315, height: 140)
         }else{

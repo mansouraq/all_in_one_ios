@@ -12,4 +12,8 @@ target 'all-in-1-app-ios-1407' do
   pod 'JJFloatingActionButton'
   pod 'UBottomSheet'
   pod 'SkyFloatingLabelTextField'
+  pod "SCPageControl"
+  pod 'SNCollectionViewLayout'
+  pod 'OnlyPictures'
+  pod 'Gallery'
 end

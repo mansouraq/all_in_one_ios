@@ -31,5 +31,4 @@ class HealthVC: UIViewController {
     @IBAction func actionBack(_ sender: UIButton) {
         popToBack()
     }
-    
 }

@@ -14,21 +14,61 @@ import UIKit
 
 class MessagesVM : NSObject {
     
+    //MARK:- Variables
+    var selectedType = Int()
     
 }
 extension MessagesVC: UITableViewDataSource,UITableViewDelegate {
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 2
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 6
+        return 5
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MessagesTVC") as! MessagesTVC
+        var tblCell = UITableViewCell()
+        switch objMessagesVM.selectedType {
+        case 0,1:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "MessagesTVC") as! MessagesTVC
+            tblCell = cell
+        case 2:
+            if indexPath.section == 0 {
+                let cell = tableView.dequeueReusableCell(withIdentifier: "RequestTVC") as! RequestTVC
+                tblCell = cell
+            } else {
+                let cell = tableView.dequeueReusableCell(withIdentifier: "PeopleYouKnowTVC") as! PeopleYouKnowTVC
+                tblCell = cell
+            }
+        default:
+            break
+        }
         
-        return cell
+        return tblCell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 115
+        if objMessagesVM.selectedType == 0 || objMessagesVM.selectedType == 1 {
+            return 115
+        } else {
+            return 80
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        if objMessagesVM.selectedType == 0 || objMessagesVM.selectedType == 1 {
+            return 0
+        } else {
+            return 60
+        }
+    }
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerCell = tableView.dequeueReusableCell(withIdentifier: "FriendRequestHeaderTVC") as! FriendRequestHeaderTVC
+        headerCell.lblTitle.text = section == 0 ? "Friend Request" : "People you might know"
+        return headerCell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        pushToNext(ChatVC.className)
     }
 }
 extension MessagesVC: UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout {
@@ -55,6 +95,8 @@ extension MessagesVC: UICollectionViewDataSource,UICollectionViewDelegate,UIColl
         return CGSize(width: 175, height: 145)
         
     }
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        presentVC(identifier: DreamPopUpVC.className, animate: true)
+    }
 }
 

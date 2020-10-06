@@ -14,5 +14,12 @@ import UIKit
 
 class MusicCVC: UICollectionViewCell {
 
-
+    @IBOutlet weak var lblDesc: UILabel!
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet weak var imgVwMusic: UIImageView!
+    
+}
+class MusicArtistCVC: UICollectionViewCell {
+    @IBOutlet weak var imgVwArtist: UIImageView!
+    @IBOutlet weak var lblName: UILabel!
 }

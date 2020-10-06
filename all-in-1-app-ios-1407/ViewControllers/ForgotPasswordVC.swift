@@ -13,21 +13,20 @@
 import UIKit
 
 class ForgotPasswordVC: UIViewController {
-    //MARK: Outlets
+    
+    //MARK: IBOutlets
     @IBOutlet weak var txtFldEmail: UITextField!
     
-    
+    //MARK: View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
-    //MARK: Action
-    @IBAction func actionSendLink(_ sender: Any) {
-
+    //MARK: IBAutlets
+    @IBAction func actionSend(_ sender: Any) {
     }
     @IBAction func actionBack(_ sender: Any) {
         popToBack()
     }
-    
 }
 

@@ -1,21 +1,22 @@
 //
 /**
-*
-*@copyright : ToXSL Technologies Pvt. Ltd. < www.toxsl.com >
-*@author     : Shiv Charan Panjeta < shiv@toxsl.com >
-*
-* All Rights Reserved.
-* Proprietary and confidential :  All information contained herein is, and remains
-* the property of ToXSL Technologies Pvt. Ltd. and its partners.
-* Unauthorized copying of this file, via any medium is strictly prohibited.
-*/
+ *
+ *@copyright : ToXSL Technologies Pvt. Ltd. < www.toxsl.com >
+ *@author     : Shiv Charan Panjeta < shiv@toxsl.com >
+ *
+ * All Rights Reserved.
+ * Proprietary and confidential :  All information contained herein is, and remains
+ * the property of ToXSL Technologies Pvt. Ltd. and its partners.
+ * Unauthorized copying of this file, via any medium is strictly prohibited.
+ */
 
 import UIKit
 
 class WalletVC: UIViewController {
-
+    
     //MARK:- Outlets
     @IBOutlet weak var tblVwWallet: UITableView!
+    @IBOutlet weak var tblVwHeightCnst: NSLayoutConstraint!
     
     //MARK:- Variables
     var objWalletVM = WalletVM()
@@ -23,10 +24,10 @@ class WalletVC: UIViewController {
     //MARK:- Life cycles
     override func viewDidLoad() {
         super.viewDidLoad()
-  }
+        tblVwHeightCnst.constant = 20*100+100
+    }
     //MARK:- Actions
-       @IBAction func actionBack(_ sender: UIButton) {
-           popToBack()
-       }
-    
+    @IBAction func actionBack(_ sender: UIButton) {
+        popToBack()
+    }
 }

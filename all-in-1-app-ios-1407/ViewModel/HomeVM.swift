@@ -1,20 +1,20 @@
 //
 /**
-*
-*@copyright : ToXSL Technologies Pvt. Ltd. < www.toxsl.com >
-*@author     : Shiv Charan Panjeta < shiv@toxsl.com >
-*
-* All Rights Reserved.
-* Proprietary and confidential :  All information contained herein is, and remains
-* the property of ToXSL Technologies Pvt. Ltd. and its partners.
-* Unauthorized copying of this file, via any medium is strictly prohibited.
-*/
+ *
+ *@copyright : ToXSL Technologies Pvt. Ltd. < www.toxsl.com >
+ *@author     : Shiv Charan Panjeta < shiv@toxsl.com >
+ *
+ * All Rights Reserved.
+ * Proprietary and confidential :  All information contained herein is, and remains
+ * the property of ToXSL Technologies Pvt. Ltd. and its partners.
+ * Unauthorized copying of this file, via any medium is strictly prohibited.
+ */
 
 import UIKit
 import PinterestLayout
 
 class HomeVM : NSObject {
-   //MARK:- Variables
+    //MARK:- Variables
     var arrImg = [
         PinterestItem(image: UIImage(named: "health-1")!, text: ""),
         PinterestItem(image: UIImage(named: "religion")!, text: ""),
@@ -33,7 +33,7 @@ extension HomeVC: UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-         let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTVC") as! HomeTVC
+        let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTVC") as! HomeTVC
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

@@ -45,6 +45,7 @@ extension OrderListVC: UICollectionViewDelegate, UICollectionViewDataSource {
             let catCell = collectionView.dequeueReusableCell(withReuseIdentifier: "OrderCategoryCVC", for: indexPath) as! OrderCategoryCVC
             catCell.lblTitle.text = objOrderListVM.arrOrder[indexPath.row].0
             catCell.vwLine.isHidden = objOrderListVM.selectedIndex != indexPath.row
+            catCell.lblTitle.textColor = objOrderListVM.selectedIndex == indexPath.row ? .black : .lightGray
             cell = catCell
         case colVwPayment:
             let paymentCell = collectionView.dequeueReusableCell(withReuseIdentifier: "PaymentStatusCVC", for: indexPath) as! PaymentStatusCVC
@@ -54,18 +55,6 @@ extension OrderListVC: UICollectionViewDelegate, UICollectionViewDataSource {
             break
         }
         return cell
-    }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        var size = CGSize()
-        if collectionView == colVwPayment {
-            var stringToFit = String()
-            stringToFit = objOrderListVM.arrOrder[indexPath.row].1
-            let font = UIFont.systemFont(ofSize: 15)
-            let userAttributes = [NSAttributedString.Key.font : font, NSAttributedString.Key.foregroundColor :UIColor.black]
-            let sizeVal = stringToFit.size(withAttributes: userAttributes)
-            size = CGSize(width: sizeVal.width+45, height: colVwPayment.frame.height-10)
-        }
-        return size
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if collectionView == colVwOrderCategory {

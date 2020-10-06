@@ -13,10 +13,17 @@
 import UIKit
 
 class MyTicketHeaderTVC: UITableViewCell {
-    
-    
+    @IBOutlet weak var imgVwTicket: UIImageView!
+    @IBOutlet weak var lblBookingId: UILabel!
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet weak var lblAddress: UILabel!
 }
 
 class MyTicketTVC: UITableViewCell {
-    
+    @IBOutlet weak var vwBg: UIView!
+    @IBOutlet weak var vwLeftBg: RoundedView!
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet weak var lblTime: UILabel!
+    @IBOutlet weak var vwRightBg: RoundedView!
+    @IBOutlet weak var btnViewTicket: UIButton!
 }

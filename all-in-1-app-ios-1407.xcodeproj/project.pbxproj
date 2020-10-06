@@ -10,13 +10,92 @@
 		1C00093924EA4BD900A2A635 /* PositivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C00093824EA4BD900A2A635 /* PositivityVC.swift */; };
 		1C00093B24EA4C9800A2A635 /* PositivityTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C00093A24EA4C9800A2A635 /* PositivityTVC.swift */; };
 		1C00093D24EA4F0E00A2A635 /* PositivityVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C00093C24EA4F0E00A2A635 /* PositivityVM.swift */; };
+		1C040023252C454C00BDF06F /* ChatMoreOptionPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C040022252C454C00BDF06F /* ChatMoreOptionPopupVC.swift */; };
+		1C040025252C45B500BDF06F /* MoreOptionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C040024252C45B500BDF06F /* MoreOptionTVC.swift */; };
+		1C040028252C4D6100BDF06F /* ViewLocationTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C040026252C4D6100BDF06F /* ViewLocationTVC.swift */; };
+		1C040029252C4D6100BDF06F /* ViewLocationTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C040027252C4D6100BDF06F /* ViewLocationTVC.xib */; };
+		1C04002B252C5B6B00BDF06F /* MyCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C04002A252C5B6B00BDF06F /* MyCardVC.swift */; };
+		1C04002D252C5C0200BDF06F /* MyCardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C04002C252C5C0200BDF06F /* MyCardVM.swift */; };
+		1C04002F252C5C7C00BDF06F /* CardTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C04002E252C5C7C00BDF06F /* CardTVC.swift */; };
+		1C040031252C69F700BDF06F /* WalletIntroIncome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C040030252C69F700BDF06F /* WalletIntroIncome.swift */; };
+		1C040033252C6E2B00BDF06F /* WalletIntroCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C040032252C6E2B00BDF06F /* WalletIntroCardVC.swift */; };
+		1C0425C92505EF2C005685DD /* ProcessingOrderPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0425C82505EF2C005685DD /* ProcessingOrderPopupVC.swift */; };
+		1C0425CB250603D9005685DD /* MyTicketListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0425CA250603D9005685DD /* MyTicketListVM.swift */; };
+		1C0425CD25061187005685DD /* ScanQrVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0425CC25061187005685DD /* ScanQrVC.swift */; };
+		1C0425CF250639D2005685DD /* VoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0425CE250639D2005685DD /* VoteVC.swift */; };
+		1C0425D125063B15005685DD /* VoteHeaderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0425D025063B15005685DD /* VoteHeaderTVC.swift */; };
+		1C0425D325063C76005685DD /* VoteVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0425D225063C76005685DD /* VoteVM.swift */; };
+		1C0425D525064966005685DD /* VoteResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0425D425064966005685DD /* VoteResultsVC.swift */; };
+		1C0425D725064B57005685DD /* VoteResultsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0425D625064B57005685DD /* VoteResultsVM.swift */; };
+		1C0425D925066433005685DD /* AvailableProviderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0425D825066433005685DD /* AvailableProviderVC.swift */; };
+		1C0425DB2506653B005685DD /* AvailableProviderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0425DA2506653B005685DD /* AvailableProviderTVC.swift */; };
+		1C06241324F6241D00CE8B67 /* StoreCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C06241224F6241D00CE8B67 /* StoreCategoryVC.swift */; };
+		1C06241524F624D800CE8B67 /* StoreCategoryVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C06241424F624D800CE8B67 /* StoreCategoryVM.swift */; };
+		1C06241724F625C500CE8B67 /* StoreCategoryCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C06241624F625C500CE8B67 /* StoreCategoryCVC.swift */; };
+		1C06241924F64A7200CE8B67 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C06241824F64A7200CE8B67 /* ProductDetailVC.swift */; };
+		1C06241B24F64CBE00CE8B67 /* ProductDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C06241A24F64CBE00CE8B67 /* ProductDetailVM.swift */; };
+		1C06241D24F64D1000CE8B67 /* ProductDetailBannerCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C06241C24F64D1000CE8B67 /* ProductDetailBannerCVC.swift */; };
+		1C0D349924FE07F10042FEAC /* RelatedProductPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D349824FE07F10042FEAC /* RelatedProductPopupVC.swift */; };
+		1C0D349B24FE094C0042FEAC /* ViewCartCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D349A24FE094C0042FEAC /* ViewCartCVC.swift */; };
+		1C0D349D24FE207C0042FEAC /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D349C24FE207C0042FEAC /* FloatRatingView.swift */; };
+		1C0D349F24FE23730042FEAC /* StoreMerchantHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D349E24FE23730042FEAC /* StoreMerchantHomeVC.swift */; };
+		1C0D34A124FE24030042FEAC /* StoreMerchantBannerTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D34A024FE24030042FEAC /* StoreMerchantBannerTVC.swift */; };
+		1C0D34A324FE29560042FEAC /* StoreMerchantBannerCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D34A224FE29560042FEAC /* StoreMerchantBannerCVC.swift */; };
+		1C0D34A524FE2BAA0042FEAC /* StoreMerchantHomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D34A424FE2BAA0042FEAC /* StoreMerchantHomeVM.swift */; };
+		1C0D34A724FE57AD0042FEAC /* PaymentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D34A624FE57AD0042FEAC /* PaymentListVC.swift */; };
+		1C0D34A924FE694F0042FEAC /* StoreCompletedPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D34A824FE694F0042FEAC /* StoreCompletedPopupVC.swift */; };
+		1C0D34AB24FE7D320042FEAC /* ChooseLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D34AA24FE7D320042FEAC /* ChooseLocationVC.swift */; };
+		1C0D34AD24FE7FEE0042FEAC /* AddCVPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D34AC24FE7FEE0042FEAC /* AddCVPopupVC.swift */; };
+		1C11DFC024FCEC46005DFA2D /* CheckOutVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C11DFBF24FCEC45005DFA2D /* CheckOutVM.swift */; };
+		1C11DFC224FD0454005DFA2D /* ChooseShippingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C11DFC124FD0454005DFA2D /* ChooseShippingVC.swift */; };
+		1C12F7D0252AEA9E00DE05FB /* AddPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C12F7CF252AEA9E00DE05FB /* AddPlaceVC.swift */; };
+		1C12F7D2252AF8EA00DE05FB /* CommentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C12F7D1252AF8EA00DE05FB /* CommentListVC.swift */; };
+		1C12F7D4252AF99900DE05FB /* CommentListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C12F7D3252AF99900DE05FB /* CommentListTVC.swift */; };
+		1C12F7D6252AFAAE00DE05FB /* CommentListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C12F7D5252AFAAE00DE05FB /* CommentListVM.swift */; };
+		1C12F7D8252AFEBD00DE05FB /* SelectCompanyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C12F7D7252AFEBD00DE05FB /* SelectCompanyVC.swift */; };
+		1C12F7DA252AFF9200DE05FB /* SelectCompanyHeaderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C12F7D9252AFF9200DE05FB /* SelectCompanyHeaderTVC.swift */; };
+		1C12F7DC252B007F00DE05FB /* SelectCompanyVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C12F7DB252B007F00DE05FB /* SelectCompanyVM.swift */; };
+		1C12F7DE252B064400DE05FB /* MyIncomeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C12F7DD252B064400DE05FB /* MyIncomeListVC.swift */; };
+		1C12F7E0252B080900DE05FB /* MyIncomeListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C12F7DF252B080900DE05FB /* MyIncomeListVM.swift */; };
+		1C1B0E5424F7896100ED2E68 /* OnlineEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1B0E5324F7896100ED2E68 /* OnlineEventVC.swift */; };
+		1C1B0E5624F78A9500ED2E68 /* OnlineEventBannerTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1B0E5524F78A9500ED2E68 /* OnlineEventBannerTVC.swift */; };
+		1C1B0E5824F78D0700ED2E68 /* OnlineEventBannerCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1B0E5724F78D0700ED2E68 /* OnlineEventBannerCVC.swift */; };
+		1C20D0442511D52700B48D07 /* TranscationsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20D0432511D52700B48D07 /* TranscationsDetailVC.swift */; };
+		1C20D0462511E61500B48D07 /* ServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20D0452511E61500B48D07 /* ServicesVC.swift */; };
+		1C20D0482511E73700B48D07 /* ServicesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20D0472511E73700B48D07 /* ServicesVM.swift */; };
+		1C20D04A2511E79C00B48D07 /* ServiceBannerCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20D0492511E79C00B48D07 /* ServiceBannerCVC.swift */; };
+		1C20D04C2511E82D00B48D07 /* ServicesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20D04B2511E82D00B48D07 /* ServicesTVC.swift */; };
+		1C20D04E2511F75D00B48D07 /* DiscoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20D04D2511F75D00B48D07 /* DiscoverVC.swift */; };
+		1C20D0502511F88D00B48D07 /* DiscoverTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20D04F2511F88D00B48D07 /* DiscoverTVC.swift */; };
+		1C20D0522511FA0F00B48D07 /* TimingsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20D0512511FA0F00B48D07 /* TimingsCVC.swift */; };
+		1C20D0542511FABE00B48D07 /* DiscoverVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20D0532511FABE00B48D07 /* DiscoverVM.swift */; };
+		1C20D05625120DD600B48D07 /* DreamListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20D05525120DD600B48D07 /* DreamListVM.swift */; };
+		1C20D05825120EE500B48D07 /* DreamHeaderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20D05725120EE500B48D07 /* DreamHeaderTVC.swift */; };
+		1C20D05A25122FB800B48D07 /* PartyPlanarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20D05925122FB800B48D07 /* PartyPlanarVC.swift */; };
+		1C20D05C251230DD00B48D07 /* PartyPlanarHeaderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20D05B251230DD00B48D07 /* PartyPlanarHeaderTVC.swift */; };
+		1C20D05E251232DC00B48D07 /* PartyPlanarVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20D05D251232DC00B48D07 /* PartyPlanarVM.swift */; };
+		1C26DA9124FF83F2000BE6C8 /* AddEducationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C26DA9024FF83F2000BE6C8 /* AddEducationVC.swift */; };
 		1C2E93A724C71E6F005D5760 /* RegisterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E93A624C71E6F005D5760 /* RegisterVM.swift */; };
 		1C2E93A924C721EA005D5760 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E93A824C721EA005D5760 /* LoginVM.swift */; };
 		1C2E93AB24C72ACE005D5760 /* VerificationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E93AA24C72ACE005D5760 /* VerificationVM.swift */; };
+		1C34A70D251CC23E000CEDB8 /* SplitBillDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C34A70C251CC23E000CEDB8 /* SplitBillDetailVC.swift */; };
+		1C34A70F251CC2C1000CEDB8 /* SplitBillHeaderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C34A70E251CC2C1000CEDB8 /* SplitBillHeaderTVC.swift */; };
+		1C34A711251CC427000CEDB8 /* SplitBillDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C34A710251CC427000CEDB8 /* SplitBillDetailVM.swift */; };
+		1C34A713251CC9CD000CEDB8 /* CreateSplitBillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C34A712251CC9CD000CEDB8 /* CreateSplitBillVC.swift */; };
+		1C34A715251CD00E000CEDB8 /* SelectMembersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C34A714251CD00E000CEDB8 /* SelectMembersVC.swift */; };
 		1C3E232924EFA115007506F9 /* AddShippingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E232824EFA115007506F9 /* AddShippingVC.swift */; };
 		1C3E232B24EFA6FF007506F9 /* ShippingListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E232A24EFA6FF007506F9 /* ShippingListVC.swift */; };
 		1C3E232D24EFA7AF007506F9 /* ShippingListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E232C24EFA7AF007506F9 /* ShippingListVM.swift */; };
 		1C3E232F24EFA80F007506F9 /* ShippingListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E232E24EFA80F007506F9 /* ShippingListTVC.swift */; };
+		1C3E233524EFFC3D007506F9 /* FoodDeliveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E233424EFFC3D007506F9 /* FoodDeliveryVC.swift */; };
+		1C45D7A325138B08007DC6C9 /* SelectPaymentPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45D7A225138B08007DC6C9 /* SelectPaymentPopupVC.swift */; };
+		1C45D7A525138BA4007DC6C9 /* SelectPaymentTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45D7A425138BA4007DC6C9 /* SelectPaymentTVC.swift */; };
+		1C45D7A825139140007DC6C9 /* FriendRequestHeaderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45D7A625139140007DC6C9 /* FriendRequestHeaderTVC.swift */; };
+		1C45D7A925139140007DC6C9 /* FriendRequestHeaderTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C45D7A725139140007DC6C9 /* FriendRequestHeaderTVC.xib */; };
+		1C45D7AC25139247007DC6C9 /* RequestTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45D7AA25139247007DC6C9 /* RequestTVC.swift */; };
+		1C45D7AD25139247007DC6C9 /* RequestTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C45D7AB25139247007DC6C9 /* RequestTVC.xib */; };
+		1C45D7B0251394F7007DC6C9 /* PeopleYouKnowTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45D7AE251394F7007DC6C9 /* PeopleYouKnowTVC.swift */; };
+		1C45D7B1251394F7007DC6C9 /* PeopleYouKnowTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C45D7AF251394F7007DC6C9 /* PeopleYouKnowTVC.xib */; };
 		1C50ABC824E3B0F800D8CA9E /* MomentFlightTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C50ABC624E3B0F800D8CA9E /* MomentFlightTVC.swift */; };
 		1C50ABC924E3B0F800D8CA9E /* MomentFlightTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C50ABC724E3B0F800D8CA9E /* MomentFlightTVC.xib */; };
 		1C50ABCC24E3B55200D8CA9E /* MomentFlightCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C50ABCA24E3B55200D8CA9E /* MomentFlightCVC.swift */; };
@@ -33,6 +112,11 @@
 		1C50ABE124E3EC8E00D8CA9E /* MomentTextTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C50ABDF24E3EC8E00D8CA9E /* MomentTextTVC.xib */; };
 		1C50ABE324E404B600D8CA9E /* AddTodoPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C50ABE224E404B600D8CA9E /* AddTodoPopupVC.swift */; };
 		1C50ABE524E406B100D8CA9E /* ChooseDateTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C50ABE424E406B100D8CA9E /* ChooseDateTimeVC.swift */; };
+		1C52E8EA252601E000C33019 /* ReactionListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C52E8E9252601E000C33019 /* ReactionListVC.swift */; };
+		1C52E8EC2526023200C33019 /* ReactionListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C52E8EB2526023200C33019 /* ReactionListTVC.swift */; };
+		1C52E8EE252602F000C33019 /* ReactionListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C52E8ED252602F000C33019 /* ReactionListVM.swift */; };
+		1C52E8F0252609FD00C33019 /* AddFeelingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C52E8EF252609FD00C33019 /* AddFeelingVC.swift */; };
+		1C52E8F225260AA500C33019 /* ChooseFeelingCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C52E8F125260AA500C33019 /* ChooseFeelingCVC.swift */; };
 		1C707E8F24EE383100F74F6B /* OrderListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C707E8E24EE383100F74F6B /* OrderListVC.swift */; };
 		1C707E9124EE397D00F74F6B /* OrderListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C707E9024EE397D00F74F6B /* OrderListVM.swift */; };
 		1C707E9324EE39FC00F74F6B /* OrderListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C707E9224EE39FC00F74F6B /* OrderListTVC.swift */; };
@@ -46,6 +130,37 @@
 		1C7B9CA124ED5D2B00EFF495 /* FavouriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7B9CA024ED5D2B00EFF495 /* FavouriteVC.swift */; };
 		1C7B9CA324ED5EB600EFF495 /* FavouriteTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7B9CA224ED5EB600EFF495 /* FavouriteTVC.swift */; };
 		1C7B9CA524ED5F3D00EFF495 /* FavouriteVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7B9CA424ED5F3D00EFF495 /* FavouriteVM.swift */; };
+		1C7E8EA124F37F1B00B208E0 /* LiveMatchListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E8EA024F37F1B00B208E0 /* LiveMatchListVC.swift */; };
+		1C7E8EA324F3801B00B208E0 /* LiveScoreCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E8EA224F3801B00B208E0 /* LiveScoreCVC.swift */; };
+		1C7E8EA524F3817E00B208E0 /* LiveScoreTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E8EA424F3817E00B208E0 /* LiveScoreTVC.swift */; };
+		1C7E8EA724F3825D00B208E0 /* LiveMatchListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E8EA624F3825D00B208E0 /* LiveMatchListVM.swift */; };
+		1C8AB7F524F7CCE3001B4ADD /* OnlineEventVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8AB7F424F7CCE3001B4ADD /* OnlineEventVM.swift */; };
+		1C90370625247B0900E244EC /* ChooseBirthdayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C90370525247B0900E244EC /* ChooseBirthdayVC.swift */; };
+		1C903708252492CD00E244EC /* ChatItemsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C903707252492CD00E244EC /* ChatItemsCVC.swift */; };
+		1C90370A2524A5A100E244EC /* ViewSplitBillTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9037092524A5A100E244EC /* ViewSplitBillTVC.swift */; };
+		1C90370C2524A7B300E244EC /* ViewSplitBillTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C90370B2524A7B300E244EC /* ViewSplitBillTVC.xib */; };
+		1C90370F2524AFD000E244EC /* ViewPollTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C90370D2524AFD000E244EC /* ViewPollTVC.swift */; };
+		1C9037102524AFD000E244EC /* ViewPollTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C90370E2524AFD000E244EC /* ViewPollTVC.xib */; };
+		1C9037132524B50F00E244EC /* ViewEventTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9037112524B50F00E244EC /* ViewEventTVC.swift */; };
+		1C9037142524B50F00E244EC /* ViewEventTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C9037122524B50F00E244EC /* ViewEventTVC.xib */; };
+		1C9037172524BC2E00E244EC /* ViewMoneyTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9037152524BC2E00E244EC /* ViewMoneyTVC.swift */; };
+		1C9037182524BC2E00E244EC /* ViewMoneyTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C9037162524BC2E00E244EC /* ViewMoneyTVC.xib */; };
+		1C91A29324F3DC8A0061E385 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91A29224F3DC8A0061E385 /* ChatVC.swift */; };
+		1C91A29C24F3DD830061E385 /* ReceiverTxtTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91A29624F3DD830061E385 /* ReceiverTxtTVC.swift */; };
+		1C91A29D24F3DD830061E385 /* ReceiverImgTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91A29724F3DD830061E385 /* ReceiverImgTVC.swift */; };
+		1C91A29E24F3DD830061E385 /* ReceiverTxtTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C91A29824F3DD830061E385 /* ReceiverTxtTVC.xib */; };
+		1C91A29F24F3DD830061E385 /* ReceiverImgTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C91A29924F3DD830061E385 /* ReceiverImgTVC.xib */; };
+		1C91A2A024F3DD830061E385 /* ReceiverVideoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91A29A24F3DD830061E385 /* ReceiverVideoTVC.swift */; };
+		1C91A2A124F3DD830061E385 /* ReceiverVideoTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C91A29B24F3DD830061E385 /* ReceiverVideoTVC.xib */; };
+		1C91A2A824F3DD930061E385 /* SenderImgTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C91A2A224F3DD930061E385 /* SenderImgTVC.xib */; };
+		1C91A2A924F3DD930061E385 /* SenderTxtTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91A2A324F3DD930061E385 /* SenderTxtTVC.swift */; };
+		1C91A2AA24F3DD930061E385 /* SenderImgTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91A2A424F3DD930061E385 /* SenderImgTVC.swift */; };
+		1C91A2AB24F3DD930061E385 /* SenderTxtTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C91A2A524F3DD930061E385 /* SenderTxtTVC.xib */; };
+		1C91A2AC24F3DD930061E385 /* SenderVideoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91A2A624F3DD930061E385 /* SenderVideoTVC.swift */; };
+		1C91A2AD24F3DD930061E385 /* SenderVideoTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C91A2A724F3DD930061E385 /* SenderVideoTVC.xib */; };
+		1C91A2AF24F3E64F0061E385 /* ChatVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91A2AE24F3E64F0061E385 /* ChatVM.swift */; };
+		1C91A2B124F3EE6F0061E385 /* DreamPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91A2B024F3EE6F0061E385 /* DreamPopUpVC.swift */; };
+		1C91A2B324F3EF500061E385 /* DreamCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91A2B224F3EF500061E385 /* DreamCVC.swift */; };
 		1C93057B24C7F73200D03ACD /* PreferencesCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C93057924C7F73200D03ACD /* PreferencesCVC.swift */; };
 		1C93057C24C7F73200D03ACD /* PreferencesCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C93057A24C7F73200D03ACD /* PreferencesCVC.xib */; };
 		1C93057E24C7F80700D03ACD /* PreferencesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C93057D24C7F80700D03ACD /* PreferencesVC.swift */; };
@@ -55,9 +170,57 @@
 		1C93058324C82CBB00D03ACD /* SF-UI-Text-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 737C320D24B0A393002CC90E /* SF-UI-Text-Bold.ttf */; };
 		1C93058424C82CBB00D03ACD /* SF-UI-Text-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 737C320C24B0A393002CC90E /* SF-UI-Text-Medium.ttf */; };
 		1C93058524C82CBB00D03ACD /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 737C320F24B0A393002CC90E /* SFProText-Regular.ttf */; };
+		1C93892E2500FC9A00EB8E4F /* StoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C93892D2500FC9A00EB8E4F /* StoreVC.swift */; };
+		1C9389302500FE0A00EB8E4F /* TopStoreTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C93892F2500FE0A00EB8E4F /* TopStoreTVC.swift */; };
+		1C9389322500FE3B00EB8E4F /* TopStoreCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9389312500FE3B00EB8E4F /* TopStoreCVC.swift */; };
+		1C9389342500FEED00EB8E4F /* StoreVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9389332500FEED00EB8E4F /* StoreVM.swift */; };
+		1C9389362501145F00EB8E4F /* SortFilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9389352501145F00EB8E4F /* SortFilterVC.swift */; };
+		1C9389382501152800EB8E4F /* SortFilterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9389372501152800EB8E4F /* SortFilterVM.swift */; };
+		1C95408525024CAF00B7F925 /* PersonalityTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95408425024CAF00B7F925 /* PersonalityTypeVC.swift */; };
+		1C95408725024DDD00B7F925 /* PersonalityCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95408625024DDD00B7F925 /* PersonalityCVC.swift */; };
+		1C95408925024EEB00B7F925 /* PersonalityTypeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95408825024EEB00B7F925 /* PersonalityTypeVM.swift */; };
+		1C95408D250272DB00B7F925 /* QrCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95408C250272DB00B7F925 /* QrCodeVC.swift */; };
+		1C95408F2502767500B7F925 /* DreamListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95408E2502767500B7F925 /* DreamListVC.swift */; };
 		1C95C3DB24EBA83E0065EB2B /* MyLifeEmptyStateTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95C3D924EBA83E0065EB2B /* MyLifeEmptyStateTVC.swift */; };
 		1C95C3DC24EBA83E0065EB2B /* MyLifeEmptyStateTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C95C3DA24EBA83E0065EB2B /* MyLifeEmptyStateTVC.xib */; };
 		1C95C3DE24EBAB0D0065EB2B /* TodayAppointmentTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95C3DD24EBAB0D0065EB2B /* TodayAppointmentTVC.swift */; };
+		1C964CB22514BFD600330580 /* StartPersonalityTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C964CB12514BFD600330580 /* StartPersonalityTestVC.swift */; };
+		1C964CB62514C38500330580 /* ChooseLanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C964CB52514C38500330580 /* ChooseLanguageVC.swift */; };
+		1C964CB82514D2AB00330580 /* SetUsernameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C964CB72514D2AB00330580 /* SetUsernameVC.swift */; };
+		1C9681EE24F525B600CBDA47 /* FollowingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9681ED24F525B600CBDA47 /* FollowingVC.swift */; };
+		1C9681F024F526D100CBDA47 /* FollowingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9681EF24F526D100CBDA47 /* FollowingTVC.swift */; };
+		1C9681F224F526F700CBDA47 /* FollowingCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9681F124F526F700CBDA47 /* FollowingCVC.swift */; };
+		1C9681F424F5272D00CBDA47 /* FollowingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9681F324F5272D00CBDA47 /* FollowingVM.swift */; };
+		1C9681F624F5298600CBDA47 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9681F524F5298600CBDA47 /* TabBarVC.swift */; };
+		1C970FFF2525B49000899E41 /* MentionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C970FFE2525B49000899E41 /* MentionVC.swift */; };
+		1C9710012525B7FE00899E41 /* MentionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9710002525B7FE00899E41 /* MentionVM.swift */; };
+		1C9710032525BF4C00899E41 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9710022525BF4C00899E41 /* CreatePostVC.swift */; };
+		1C9710052525D94E00899E41 /* CreatePostCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9710042525D94E00899E41 /* CreatePostCVC.swift */; };
+		1C9710072525D97900899E41 /* CreatePostVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9710062525D97900899E41 /* CreatePostVM.swift */; };
+		1C9FF4E32507A943004A0AB6 /* PromotionsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9FF4E22507A943004A0AB6 /* PromotionsListVC.swift */; };
+		1C9FF4E52507AA05004A0AB6 /* PromotionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9FF4E42507AA05004A0AB6 /* PromotionTVC.swift */; };
+		1C9FF4E72507B4E1004A0AB6 /* OrderProviderInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9FF4E62507B4E1004A0AB6 /* OrderProviderInfo.swift */; };
+		1CA3409524FF8DB500445156 /* SaveLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3409424FF8DB500445156 /* SaveLocationVC.swift */; };
+		1CA3409724FF95CB00445156 /* AddSkillsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3409624FF95CB00445156 /* AddSkillsVC.swift */; };
+		1CA3409924FFA2BD00445156 /* AddExperienceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3409824FFA2BD00445156 /* AddExperienceVC.swift */; };
+		1CAE9F0125135F5D00BBF598 /* LNHexNumberpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CAE9EFE25135F5D00BBF598 /* LNHexNumberpad.xib */; };
+		1CAE9F0225135F5D00BBF598 /* LNNumberpad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE9EFF25135F5D00BBF598 /* LNNumberpad.m */; };
+		1CAE9F0325135F5D00BBF598 /* LNNumberpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CAE9F0025135F5D00BBF598 /* LNNumberpad.xib */; };
+		1CAE9F05251365C600BBF598 /* RequestMoneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE9F04251365C600BBF598 /* RequestMoneyVC.swift */; };
+		1CAE9F082513828100BBF598 /* SendMoneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE9F072513828100BBF598 /* SendMoneyVC.swift */; };
+		1CAE9F0A2513865600BBF598 /* RequestSucceedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE9F092513865600BBF598 /* RequestSucceedVC.swift */; };
+		1CB69926251DA4F4007C76E7 /* SelectMembersVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB69925251DA4F4007C76E7 /* SelectMembersVM.swift */; };
+		1CB69928251DA53E007C76E7 /* SelectMemberTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB69927251DA53E007C76E7 /* SelectMemberTVC.swift */; };
+		1CB6992A251DAB70007C76E7 /* CreateEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB69929251DAB70007C76E7 /* CreateEventVC.swift */; };
+		1CB6992C251DB52C007C76E7 /* SelectChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6992B251DB52C007C76E7 /* SelectChatVC.swift */; };
+		1CB6992E251DB7CF007C76E7 /* SelectChatHeaderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6992D251DB7CF007C76E7 /* SelectChatHeaderTVC.swift */; };
+		1CB69930251DB825007C76E7 /* SelectChatVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6992F251DB825007C76E7 /* SelectChatVM.swift */; };
+		1CB6993A251DCD24007C76E7 /* AddEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB69939251DCD24007C76E7 /* AddEventVC.swift */; };
+		1CB6993C251DF98F007C76E7 /* EventReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6993B251DF98F007C76E7 /* EventReviewVC.swift */; };
+		1CB6993E251DFAD0007C76E7 /* EventReviewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6993D251DFAD0007C76E7 /* EventReviewVM.swift */; };
+		1CB69940251DFB05007C76E7 /* EventReviewHeaderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6993F251DFB05007C76E7 /* EventReviewHeaderTVC.swift */; };
+		1CB93B1D24F9399400BCE1E6 /* CheckOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB93B1C24F9399400BCE1E6 /* CheckOutVC.swift */; };
+		1CB93B1F24F93A3F00BCE1E6 /* AddShippingAddressTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB93B1E24F93A3F00BCE1E6 /* AddShippingAddressTVC.swift */; };
 		1CBA6C5E24E51DD100BE1DF2 /* MyTicketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA6C5D24E51DD100BE1DF2 /* MyTicketVC.swift */; };
 		1CBA6C6024E55DAE00BE1DF2 /* MyTicketCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA6C5F24E55DAE00BE1DF2 /* MyTicketCVC.swift */; };
 		1CBA6C6224E568D500BE1DF2 /* OrderPlacedPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA6C6124E568D500BE1DF2 /* OrderPlacedPopupVC.swift */; };
@@ -66,6 +229,10 @@
 		1CBAB7D624ECEE18004A9248 /* MarketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAB7D524ECEE18004A9248 /* MarketVC.swift */; };
 		1CBAB7D824ECEE9D004A9248 /* MarketBannerCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAB7D724ECEE9D004A9248 /* MarketBannerCVC.swift */; };
 		1CBAB7DA24ECEF16004A9248 /* MarketHeaderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAB7D924ECEF16004A9248 /* MarketHeaderTVC.swift */; };
+		1CEB91232521A54900074F37 /* AddSplitBillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEB91222521A54900074F37 /* AddSplitBillVC.swift */; };
+		1CEB91252521AB6A00074F37 /* SendToChatPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEB91242521AB6A00074F37 /* SendToChatPopupVC.swift */; };
+		1CEB91272521B27700074F37 /* CreatePollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEB91262521B27700074F37 /* CreatePollVC.swift */; };
+		1CEB91292521BD2300074F37 /* AddPollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEB91282521BD2300074F37 /* AddPollVC.swift */; };
 		1CF2EA0B24EA58780049DDDC /* AddPositivityPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2EA0A24EA58780049DDDC /* AddPositivityPopupVC.swift */; };
 		1CF2EA0D24EA67B20049DDDC /* AddFriendPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2EA0C24EA67B20049DDDC /* AddFriendPopupVC.swift */; };
 		1CF2EA0F24EA68560049DDDC /* AddFriendTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2EA0E24EA68560049DDDC /* AddFriendTVC.swift */; };
@@ -205,13 +372,92 @@
 		1C00093824EA4BD900A2A635 /* PositivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositivityVC.swift; sourceTree = "<group>"; };
 		1C00093A24EA4C9800A2A635 /* PositivityTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositivityTVC.swift; sourceTree = "<group>"; };
 		1C00093C24EA4F0E00A2A635 /* PositivityVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositivityVM.swift; sourceTree = "<group>"; };
+		1C040022252C454C00BDF06F /* ChatMoreOptionPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMoreOptionPopupVC.swift; sourceTree = "<group>"; };
+		1C040024252C45B500BDF06F /* MoreOptionTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreOptionTVC.swift; sourceTree = "<group>"; };
+		1C040026252C4D6100BDF06F /* ViewLocationTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLocationTVC.swift; sourceTree = "<group>"; };
+		1C040027252C4D6100BDF06F /* ViewLocationTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewLocationTVC.xib; sourceTree = "<group>"; };
+		1C04002A252C5B6B00BDF06F /* MyCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardVC.swift; sourceTree = "<group>"; };
+		1C04002C252C5C0200BDF06F /* MyCardVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardVM.swift; sourceTree = "<group>"; };
+		1C04002E252C5C7C00BDF06F /* CardTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTVC.swift; sourceTree = "<group>"; };
+		1C040030252C69F700BDF06F /* WalletIntroIncome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletIntroIncome.swift; sourceTree = "<group>"; };
+		1C040032252C6E2B00BDF06F /* WalletIntroCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletIntroCardVC.swift; sourceTree = "<group>"; };
+		1C0425C82505EF2C005685DD /* ProcessingOrderPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingOrderPopupVC.swift; sourceTree = "<group>"; };
+		1C0425CA250603D9005685DD /* MyTicketListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketListVM.swift; sourceTree = "<group>"; };
+		1C0425CC25061187005685DD /* ScanQrVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQrVC.swift; sourceTree = "<group>"; };
+		1C0425CE250639D2005685DD /* VoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteVC.swift; sourceTree = "<group>"; };
+		1C0425D025063B15005685DD /* VoteHeaderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteHeaderTVC.swift; sourceTree = "<group>"; };
+		1C0425D225063C76005685DD /* VoteVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteVM.swift; sourceTree = "<group>"; };
+		1C0425D425064966005685DD /* VoteResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteResultsVC.swift; sourceTree = "<group>"; };
+		1C0425D625064B57005685DD /* VoteResultsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteResultsVM.swift; sourceTree = "<group>"; };
+		1C0425D825066433005685DD /* AvailableProviderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableProviderVC.swift; sourceTree = "<group>"; };
+		1C0425DA2506653B005685DD /* AvailableProviderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableProviderTVC.swift; sourceTree = "<group>"; };
+		1C06241224F6241D00CE8B67 /* StoreCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCategoryVC.swift; sourceTree = "<group>"; };
+		1C06241424F624D800CE8B67 /* StoreCategoryVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCategoryVM.swift; sourceTree = "<group>"; };
+		1C06241624F625C500CE8B67 /* StoreCategoryCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCategoryCVC.swift; sourceTree = "<group>"; };
+		1C06241824F64A7200CE8B67 /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
+		1C06241A24F64CBE00CE8B67 /* ProductDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVM.swift; sourceTree = "<group>"; };
+		1C06241C24F64D1000CE8B67 /* ProductDetailBannerCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailBannerCVC.swift; sourceTree = "<group>"; };
+		1C0D349824FE07F10042FEAC /* RelatedProductPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedProductPopupVC.swift; sourceTree = "<group>"; };
+		1C0D349A24FE094C0042FEAC /* ViewCartCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCartCVC.swift; sourceTree = "<group>"; };
+		1C0D349C24FE207C0042FEAC /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+		1C0D349E24FE23730042FEAC /* StoreMerchantHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreMerchantHomeVC.swift; sourceTree = "<group>"; };
+		1C0D34A024FE24030042FEAC /* StoreMerchantBannerTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreMerchantBannerTVC.swift; sourceTree = "<group>"; };
+		1C0D34A224FE29560042FEAC /* StoreMerchantBannerCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreMerchantBannerCVC.swift; sourceTree = "<group>"; };
+		1C0D34A424FE2BAA0042FEAC /* StoreMerchantHomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreMerchantHomeVM.swift; sourceTree = "<group>"; };
+		1C0D34A624FE57AD0042FEAC /* PaymentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentListVC.swift; sourceTree = "<group>"; };
+		1C0D34A824FE694F0042FEAC /* StoreCompletedPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCompletedPopupVC.swift; sourceTree = "<group>"; };
+		1C0D34AA24FE7D320042FEAC /* ChooseLocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLocationVC.swift; sourceTree = "<group>"; };
+		1C0D34AC24FE7FEE0042FEAC /* AddCVPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCVPopupVC.swift; sourceTree = "<group>"; };
+		1C11DFBF24FCEC45005DFA2D /* CheckOutVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutVM.swift; sourceTree = "<group>"; };
+		1C11DFC124FD0454005DFA2D /* ChooseShippingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseShippingVC.swift; sourceTree = "<group>"; };
+		1C12F7CF252AEA9E00DE05FB /* AddPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceVC.swift; sourceTree = "<group>"; };
+		1C12F7D1252AF8EA00DE05FB /* CommentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListVC.swift; sourceTree = "<group>"; };
+		1C12F7D3252AF99900DE05FB /* CommentListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListTVC.swift; sourceTree = "<group>"; };
+		1C12F7D5252AFAAE00DE05FB /* CommentListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListVM.swift; sourceTree = "<group>"; };
+		1C12F7D7252AFEBD00DE05FB /* SelectCompanyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCompanyVC.swift; sourceTree = "<group>"; };
+		1C12F7D9252AFF9200DE05FB /* SelectCompanyHeaderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCompanyHeaderTVC.swift; sourceTree = "<group>"; };
+		1C12F7DB252B007F00DE05FB /* SelectCompanyVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCompanyVM.swift; sourceTree = "<group>"; };
+		1C12F7DD252B064400DE05FB /* MyIncomeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIncomeListVC.swift; sourceTree = "<group>"; };
+		1C12F7DF252B080900DE05FB /* MyIncomeListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIncomeListVM.swift; sourceTree = "<group>"; };
+		1C1B0E5324F7896100ED2E68 /* OnlineEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineEventVC.swift; sourceTree = "<group>"; };
+		1C1B0E5524F78A9500ED2E68 /* OnlineEventBannerTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineEventBannerTVC.swift; sourceTree = "<group>"; };
+		1C1B0E5724F78D0700ED2E68 /* OnlineEventBannerCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineEventBannerCVC.swift; sourceTree = "<group>"; };
+		1C20D0432511D52700B48D07 /* TranscationsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscationsDetailVC.swift; sourceTree = "<group>"; };
+		1C20D0452511E61500B48D07 /* ServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesVC.swift; sourceTree = "<group>"; };
+		1C20D0472511E73700B48D07 /* ServicesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesVM.swift; sourceTree = "<group>"; };
+		1C20D0492511E79C00B48D07 /* ServiceBannerCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBannerCVC.swift; sourceTree = "<group>"; };
+		1C20D04B2511E82D00B48D07 /* ServicesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTVC.swift; sourceTree = "<group>"; };
+		1C20D04D2511F75D00B48D07 /* DiscoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverVC.swift; sourceTree = "<group>"; };
+		1C20D04F2511F88D00B48D07 /* DiscoverTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTVC.swift; sourceTree = "<group>"; };
+		1C20D0512511FA0F00B48D07 /* TimingsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingsCVC.swift; sourceTree = "<group>"; };
+		1C20D0532511FABE00B48D07 /* DiscoverVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverVM.swift; sourceTree = "<group>"; };
+		1C20D05525120DD600B48D07 /* DreamListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamListVM.swift; sourceTree = "<group>"; };
+		1C20D05725120EE500B48D07 /* DreamHeaderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamHeaderTVC.swift; sourceTree = "<group>"; };
+		1C20D05925122FB800B48D07 /* PartyPlanarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyPlanarVC.swift; sourceTree = "<group>"; };
+		1C20D05B251230DD00B48D07 /* PartyPlanarHeaderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyPlanarHeaderTVC.swift; sourceTree = "<group>"; };
+		1C20D05D251232DC00B48D07 /* PartyPlanarVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyPlanarVM.swift; sourceTree = "<group>"; };
+		1C26DA9024FF83F2000BE6C8 /* AddEducationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEducationVC.swift; sourceTree = "<group>"; };
 		1C2E93A624C71E6F005D5760 /* RegisterVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVM.swift; sourceTree = "<group>"; };
 		1C2E93A824C721EA005D5760 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
 		1C2E93AA24C72ACE005D5760 /* VerificationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationVM.swift; sourceTree = "<group>"; };
+		1C34A70C251CC23E000CEDB8 /* SplitBillDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitBillDetailVC.swift; sourceTree = "<group>"; };
+		1C34A70E251CC2C1000CEDB8 /* SplitBillHeaderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitBillHeaderTVC.swift; sourceTree = "<group>"; };
+		1C34A710251CC427000CEDB8 /* SplitBillDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitBillDetailVM.swift; sourceTree = "<group>"; };
+		1C34A712251CC9CD000CEDB8 /* CreateSplitBillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSplitBillVC.swift; sourceTree = "<group>"; };
+		1C34A714251CD00E000CEDB8 /* SelectMembersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMembersVC.swift; sourceTree = "<group>"; };
 		1C3E232824EFA115007506F9 /* AddShippingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShippingVC.swift; sourceTree = "<group>"; };
 		1C3E232A24EFA6FF007506F9 /* ShippingListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingListVC.swift; sourceTree = "<group>"; };
 		1C3E232C24EFA7AF007506F9 /* ShippingListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingListVM.swift; sourceTree = "<group>"; };
 		1C3E232E24EFA80F007506F9 /* ShippingListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingListTVC.swift; sourceTree = "<group>"; };
+		1C3E233424EFFC3D007506F9 /* FoodDeliveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryVC.swift; sourceTree = "<group>"; };
+		1C45D7A225138B08007DC6C9 /* SelectPaymentPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPaymentPopupVC.swift; sourceTree = "<group>"; };
+		1C45D7A425138BA4007DC6C9 /* SelectPaymentTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPaymentTVC.swift; sourceTree = "<group>"; };
+		1C45D7A625139140007DC6C9 /* FriendRequestHeaderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestHeaderTVC.swift; sourceTree = "<group>"; };
+		1C45D7A725139140007DC6C9 /* FriendRequestHeaderTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendRequestHeaderTVC.xib; sourceTree = "<group>"; };
+		1C45D7AA25139247007DC6C9 /* RequestTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTVC.swift; sourceTree = "<group>"; };
+		1C45D7AB25139247007DC6C9 /* RequestTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestTVC.xib; sourceTree = "<group>"; };
+		1C45D7AE251394F7007DC6C9 /* PeopleYouKnowTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleYouKnowTVC.swift; sourceTree = "<group>"; };
+		1C45D7AF251394F7007DC6C9 /* PeopleYouKnowTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleYouKnowTVC.xib; sourceTree = "<group>"; };
 		1C50ABC624E3B0F800D8CA9E /* MomentFlightTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentFlightTVC.swift; sourceTree = "<group>"; };
 		1C50ABC724E3B0F800D8CA9E /* MomentFlightTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentFlightTVC.xib; sourceTree = "<group>"; };
 		1C50ABCA24E3B55200D8CA9E /* MomentFlightCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentFlightCVC.swift; sourceTree = "<group>"; };
@@ -228,6 +474,11 @@
 		1C50ABDF24E3EC8E00D8CA9E /* MomentTextTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentTextTVC.xib; sourceTree = "<group>"; };
 		1C50ABE224E404B600D8CA9E /* AddTodoPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoPopupVC.swift; sourceTree = "<group>"; };
 		1C50ABE424E406B100D8CA9E /* ChooseDateTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDateTimeVC.swift; sourceTree = "<group>"; };
+		1C52E8E9252601E000C33019 /* ReactionListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionListVC.swift; sourceTree = "<group>"; };
+		1C52E8EB2526023200C33019 /* ReactionListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionListTVC.swift; sourceTree = "<group>"; };
+		1C52E8ED252602F000C33019 /* ReactionListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionListVM.swift; sourceTree = "<group>"; };
+		1C52E8EF252609FD00C33019 /* AddFeelingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeelingVC.swift; sourceTree = "<group>"; };
+		1C52E8F125260AA500C33019 /* ChooseFeelingCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFeelingCVC.swift; sourceTree = "<group>"; };
 		1C707E8E24EE383100F74F6B /* OrderListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListVC.swift; sourceTree = "<group>"; };
 		1C707E9024EE397D00F74F6B /* OrderListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListVM.swift; sourceTree = "<group>"; };
 		1C707E9224EE39FC00F74F6B /* OrderListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListTVC.swift; sourceTree = "<group>"; };
@@ -241,13 +492,94 @@
 		1C7B9CA024ED5D2B00EFF495 /* FavouriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteVC.swift; sourceTree = "<group>"; };
 		1C7B9CA224ED5EB600EFF495 /* FavouriteTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTVC.swift; sourceTree = "<group>"; };
 		1C7B9CA424ED5F3D00EFF495 /* FavouriteVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteVM.swift; sourceTree = "<group>"; };
+		1C7E8EA024F37F1B00B208E0 /* LiveMatchListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveMatchListVC.swift; sourceTree = "<group>"; };
+		1C7E8EA224F3801B00B208E0 /* LiveScoreCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScoreCVC.swift; sourceTree = "<group>"; };
+		1C7E8EA424F3817E00B208E0 /* LiveScoreTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScoreTVC.swift; sourceTree = "<group>"; };
+		1C7E8EA624F3825D00B208E0 /* LiveMatchListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveMatchListVM.swift; sourceTree = "<group>"; };
+		1C8AB7F424F7CCE3001B4ADD /* OnlineEventVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineEventVM.swift; sourceTree = "<group>"; };
+		1C90370525247B0900E244EC /* ChooseBirthdayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseBirthdayVC.swift; sourceTree = "<group>"; };
+		1C903707252492CD00E244EC /* ChatItemsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatItemsCVC.swift; sourceTree = "<group>"; };
+		1C9037092524A5A100E244EC /* ViewSplitBillTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSplitBillTVC.swift; sourceTree = "<group>"; };
+		1C90370B2524A7B300E244EC /* ViewSplitBillTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewSplitBillTVC.xib; sourceTree = "<group>"; };
+		1C90370D2524AFD000E244EC /* ViewPollTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPollTVC.swift; sourceTree = "<group>"; };
+		1C90370E2524AFD000E244EC /* ViewPollTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewPollTVC.xib; sourceTree = "<group>"; };
+		1C9037112524B50F00E244EC /* ViewEventTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewEventTVC.swift; sourceTree = "<group>"; };
+		1C9037122524B50F00E244EC /* ViewEventTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewEventTVC.xib; sourceTree = "<group>"; };
+		1C9037152524BC2E00E244EC /* ViewMoneyTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMoneyTVC.swift; sourceTree = "<group>"; };
+		1C9037162524BC2E00E244EC /* ViewMoneyTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewMoneyTVC.xib; sourceTree = "<group>"; };
+		1C91A29224F3DC8A0061E385 /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		1C91A29624F3DD830061E385 /* ReceiverTxtTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverTxtTVC.swift; sourceTree = "<group>"; };
+		1C91A29724F3DD830061E385 /* ReceiverImgTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverImgTVC.swift; sourceTree = "<group>"; };
+		1C91A29824F3DD830061E385 /* ReceiverTxtTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceiverTxtTVC.xib; sourceTree = "<group>"; };
+		1C91A29924F3DD830061E385 /* ReceiverImgTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceiverImgTVC.xib; sourceTree = "<group>"; };
+		1C91A29A24F3DD830061E385 /* ReceiverVideoTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverVideoTVC.swift; sourceTree = "<group>"; };
+		1C91A29B24F3DD830061E385 /* ReceiverVideoTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceiverVideoTVC.xib; sourceTree = "<group>"; };
+		1C91A2A224F3DD930061E385 /* SenderImgTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SenderImgTVC.xib; sourceTree = "<group>"; };
+		1C91A2A324F3DD930061E385 /* SenderTxtTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenderTxtTVC.swift; sourceTree = "<group>"; };
+		1C91A2A424F3DD930061E385 /* SenderImgTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenderImgTVC.swift; sourceTree = "<group>"; };
+		1C91A2A524F3DD930061E385 /* SenderTxtTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SenderTxtTVC.xib; sourceTree = "<group>"; };
+		1C91A2A624F3DD930061E385 /* SenderVideoTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenderVideoTVC.swift; sourceTree = "<group>"; };
+		1C91A2A724F3DD930061E385 /* SenderVideoTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SenderVideoTVC.xib; sourceTree = "<group>"; };
+		1C91A2AE24F3E64F0061E385 /* ChatVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVM.swift; sourceTree = "<group>"; };
+		1C91A2B024F3EE6F0061E385 /* DreamPopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamPopUpVC.swift; sourceTree = "<group>"; };
+		1C91A2B224F3EF500061E385 /* DreamCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamCVC.swift; sourceTree = "<group>"; };
 		1C93057924C7F73200D03ACD /* PreferencesCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesCVC.swift; sourceTree = "<group>"; };
 		1C93057A24C7F73200D03ACD /* PreferencesCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferencesCVC.xib; sourceTree = "<group>"; };
 		1C93057D24C7F80700D03ACD /* PreferencesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesVC.swift; sourceTree = "<group>"; };
 		1C93057F24C7F89600D03ACD /* PreferencesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesVM.swift; sourceTree = "<group>"; };
+		1C93892D2500FC9A00EB8E4F /* StoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreVC.swift; sourceTree = "<group>"; };
+		1C93892F2500FE0A00EB8E4F /* TopStoreTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoreTVC.swift; sourceTree = "<group>"; };
+		1C9389312500FE3B00EB8E4F /* TopStoreCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoreCVC.swift; sourceTree = "<group>"; };
+		1C9389332500FEED00EB8E4F /* StoreVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreVM.swift; sourceTree = "<group>"; };
+		1C9389352501145F00EB8E4F /* SortFilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterVC.swift; sourceTree = "<group>"; };
+		1C9389372501152800EB8E4F /* SortFilterVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterVM.swift; sourceTree = "<group>"; };
+		1C95408425024CAF00B7F925 /* PersonalityTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTypeVC.swift; sourceTree = "<group>"; };
+		1C95408625024DDD00B7F925 /* PersonalityCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityCVC.swift; sourceTree = "<group>"; };
+		1C95408825024EEB00B7F925 /* PersonalityTypeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTypeVM.swift; sourceTree = "<group>"; };
+		1C95408C250272DB00B7F925 /* QrCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeVC.swift; sourceTree = "<group>"; };
+		1C95408E2502767500B7F925 /* DreamListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamListVC.swift; sourceTree = "<group>"; };
 		1C95C3D924EBA83E0065EB2B /* MyLifeEmptyStateTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLifeEmptyStateTVC.swift; sourceTree = "<group>"; };
 		1C95C3DA24EBA83E0065EB2B /* MyLifeEmptyStateTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyLifeEmptyStateTVC.xib; sourceTree = "<group>"; };
 		1C95C3DD24EBAB0D0065EB2B /* TodayAppointmentTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayAppointmentTVC.swift; sourceTree = "<group>"; };
+		1C964CB12514BFD600330580 /* StartPersonalityTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPersonalityTestVC.swift; sourceTree = "<group>"; };
+		1C964CB52514C38500330580 /* ChooseLanguageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLanguageVC.swift; sourceTree = "<group>"; };
+		1C964CB72514D2AB00330580 /* SetUsernameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUsernameVC.swift; sourceTree = "<group>"; };
+		1C9681ED24F525B600CBDA47 /* FollowingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingVC.swift; sourceTree = "<group>"; };
+		1C9681EF24F526D100CBDA47 /* FollowingTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingTVC.swift; sourceTree = "<group>"; };
+		1C9681F124F526F700CBDA47 /* FollowingCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingCVC.swift; sourceTree = "<group>"; };
+		1C9681F324F5272D00CBDA47 /* FollowingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingVM.swift; sourceTree = "<group>"; };
+		1C9681F524F5298600CBDA47 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		1C970FFE2525B49000899E41 /* MentionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentionVC.swift; sourceTree = "<group>"; };
+		1C9710002525B7FE00899E41 /* MentionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentionVM.swift; sourceTree = "<group>"; };
+		1C9710022525BF4C00899E41 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		1C9710042525D94E00899E41 /* CreatePostCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostCVC.swift; sourceTree = "<group>"; };
+		1C9710062525D97900899E41 /* CreatePostVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVM.swift; sourceTree = "<group>"; };
+		1C9FF4E22507A943004A0AB6 /* PromotionsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsListVC.swift; sourceTree = "<group>"; };
+		1C9FF4E42507AA05004A0AB6 /* PromotionTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionTVC.swift; sourceTree = "<group>"; };
+		1C9FF4E62507B4E1004A0AB6 /* OrderProviderInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderProviderInfo.swift; sourceTree = "<group>"; };
+		1CA3409424FF8DB500445156 /* SaveLocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLocationVC.swift; sourceTree = "<group>"; };
+		1CA3409624FF95CB00445156 /* AddSkillsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSkillsVC.swift; sourceTree = "<group>"; };
+		1CA3409824FFA2BD00445156 /* AddExperienceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExperienceVC.swift; sourceTree = "<group>"; };
+		1CAE9EFD25135F5D00BBF598 /* LNNumberpad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNNumberpad.h; sourceTree = "<group>"; };
+		1CAE9EFE25135F5D00BBF598 /* LNHexNumberpad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LNHexNumberpad.xib; sourceTree = "<group>"; };
+		1CAE9EFF25135F5D00BBF598 /* LNNumberpad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNNumberpad.m; sourceTree = "<group>"; };
+		1CAE9F0025135F5D00BBF598 /* LNNumberpad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LNNumberpad.xib; sourceTree = "<group>"; };
+		1CAE9F04251365C600BBF598 /* RequestMoneyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMoneyVC.swift; sourceTree = "<group>"; };
+		1CAE9F06251369DE00BBF598 /* all-in-1-app-ios-1407-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "all-in-1-app-ios-1407-Bridging-Header.h"; sourceTree = "<group>"; };
+		1CAE9F072513828100BBF598 /* SendMoneyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyVC.swift; sourceTree = "<group>"; };
+		1CAE9F092513865600BBF598 /* RequestSucceedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSucceedVC.swift; sourceTree = "<group>"; };
+		1CB69925251DA4F4007C76E7 /* SelectMembersVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMembersVM.swift; sourceTree = "<group>"; };
+		1CB69927251DA53E007C76E7 /* SelectMemberTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMemberTVC.swift; sourceTree = "<group>"; };
+		1CB69929251DAB70007C76E7 /* CreateEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventVC.swift; sourceTree = "<group>"; };
+		1CB6992B251DB52C007C76E7 /* SelectChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectChatVC.swift; sourceTree = "<group>"; };
+		1CB6992D251DB7CF007C76E7 /* SelectChatHeaderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectChatHeaderTVC.swift; sourceTree = "<group>"; };
+		1CB6992F251DB825007C76E7 /* SelectChatVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectChatVM.swift; sourceTree = "<group>"; };
+		1CB69939251DCD24007C76E7 /* AddEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventVC.swift; sourceTree = "<group>"; };
+		1CB6993B251DF98F007C76E7 /* EventReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventReviewVC.swift; sourceTree = "<group>"; };
+		1CB6993D251DFAD0007C76E7 /* EventReviewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventReviewVM.swift; sourceTree = "<group>"; };
+		1CB6993F251DFB05007C76E7 /* EventReviewHeaderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventReviewHeaderTVC.swift; sourceTree = "<group>"; };
+		1CB93B1C24F9399400BCE1E6 /* CheckOutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutVC.swift; sourceTree = "<group>"; };
+		1CB93B1E24F93A3F00BCE1E6 /* AddShippingAddressTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShippingAddressTVC.swift; sourceTree = "<group>"; };
 		1CBA6C5D24E51DD100BE1DF2 /* MyTicketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketVC.swift; sourceTree = "<group>"; };
 		1CBA6C5F24E55DAE00BE1DF2 /* MyTicketCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketCVC.swift; sourceTree = "<group>"; };
 		1CBA6C6124E568D500BE1DF2 /* OrderPlacedPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPlacedPopupVC.swift; sourceTree = "<group>"; };
@@ -256,6 +588,10 @@
 		1CBAB7D524ECEE18004A9248 /* MarketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketVC.swift; sourceTree = "<group>"; };
 		1CBAB7D724ECEE9D004A9248 /* MarketBannerCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketBannerCVC.swift; sourceTree = "<group>"; };
 		1CBAB7D924ECEF16004A9248 /* MarketHeaderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketHeaderTVC.swift; sourceTree = "<group>"; };
+		1CEB91222521A54900074F37 /* AddSplitBillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSplitBillVC.swift; sourceTree = "<group>"; };
+		1CEB91242521AB6A00074F37 /* SendToChatPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendToChatPopupVC.swift; sourceTree = "<group>"; };
+		1CEB91262521B27700074F37 /* CreatePollVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePollVC.swift; sourceTree = "<group>"; };
+		1CEB91282521BD2300074F37 /* AddPollVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPollVC.swift; sourceTree = "<group>"; };
 		1CF2EA0A24EA58780049DDDC /* AddPositivityPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPositivityPopupVC.swift; sourceTree = "<group>"; };
 		1CF2EA0C24EA67B20049DDDC /* AddFriendPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendPopupVC.swift; sourceTree = "<group>"; };
 		1CF2EA0E24EA68560049DDDC /* AddFriendTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendTVC.swift; sourceTree = "<group>"; };
@@ -414,11 +750,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C91A29424F3DD6A0061E385 /* Receiver */ = {
+			isa = PBXGroup;
+			children = (
+				1C91A29724F3DD830061E385 /* ReceiverImgTVC.swift */,
+				1C91A29924F3DD830061E385 /* ReceiverImgTVC.xib */,
+				1C91A29624F3DD830061E385 /* ReceiverTxtTVC.swift */,
+				1C91A29824F3DD830061E385 /* ReceiverTxtTVC.xib */,
+				1C91A29A24F3DD830061E385 /* ReceiverVideoTVC.swift */,
+				1C91A29B24F3DD830061E385 /* ReceiverVideoTVC.xib */,
+			);
+			path = Receiver;
+			sourceTree = "<group>";
+		};
+		1C91A29524F3DD730061E385 /* Sender */ = {
+			isa = PBXGroup;
+			children = (
+				1C91A2A424F3DD930061E385 /* SenderImgTVC.swift */,
+				1C91A2A224F3DD930061E385 /* SenderImgTVC.xib */,
+				1C91A2A324F3DD930061E385 /* SenderTxtTVC.swift */,
+				1C91A2A524F3DD930061E385 /* SenderTxtTVC.xib */,
+				1C91A2A624F3DD930061E385 /* SenderVideoTVC.swift */,
+				1C91A2A724F3DD930061E385 /* SenderVideoTVC.xib */,
+			);
+			path = Sender;
+			sourceTree = "<group>";
+		};
+		1CAE9EFC25135F5D00BBF598 /* LNNumberpad */ = {
+			isa = PBXGroup;
+			children = (
+				1CAE9EFD25135F5D00BBF598 /* LNNumberpad.h */,
+				1CAE9EFE25135F5D00BBF598 /* LNHexNumberpad.xib */,
+				1CAE9EFF25135F5D00BBF598 /* LNNumberpad.m */,
+				1CAE9F0025135F5D00BBF598 /* LNNumberpad.xib */,
+			);
+			path = LNNumberpad;
+			sourceTree = "<group>";
+		};
 		69A0F2B124B5868400E36CFC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				BAE2B40D24DAA5330009B0EE /* DueTaskTodayVM.swift */,
+				1CB6993D251DFAD0007C76E7 /* EventReviewVM.swift */,
+				1C04002C252C5C0200BDF06F /* MyCardVM.swift */,
+				1C12F7DB252B007F00DE05FB /* SelectCompanyVM.swift */,
+				1C12F7DF252B080900DE05FB /* MyIncomeListVM.swift */,
+				1C12F7D5252AFAAE00DE05FB /* CommentListVM.swift */,
+				1C52E8ED252602F000C33019 /* ReactionListVM.swift */,
+				1C9710002525B7FE00899E41 /* MentionVM.swift */,
+				1C9710062525D97900899E41 /* CreatePostVM.swift */,
+				1CB69925251DA4F4007C76E7 /* SelectMembersVM.swift */,
+				1CB6992F251DB825007C76E7 /* SelectChatVM.swift */,
+				1C0425D625064B57005685DD /* VoteResultsVM.swift */,
+				1C34A710251CC427000CEDB8 /* SplitBillDetailVM.swift */,
+				1C20D05D251232DC00B48D07 /* PartyPlanarVM.swift */,
+				1C20D05525120DD600B48D07 /* DreamListVM.swift */,
+				1C20D0472511E73700B48D07 /* ServicesVM.swift */,
+				1C20D0532511FABE00B48D07 /* DiscoverVM.swift */,
+				1C9389332500FEED00EB8E4F /* StoreVM.swift */,
+				1C0425CA250603D9005685DD /* MyTicketListVM.swift */,
+				1C95408825024EEB00B7F925 /* PersonalityTypeVM.swift */,
+				1C0425D225063C76005685DD /* VoteVM.swift */,
+				1C06241424F624D800CE8B67 /* StoreCategoryVM.swift */,
+				1C9389372501152800EB8E4F /* SortFilterVM.swift */,
+				1C0D34A424FE2BAA0042FEAC /* StoreMerchantHomeVM.swift */,
+				1C11DFBF24FCEC45005DFA2D /* CheckOutVM.swift */,
+				1C8AB7F424F7CCE3001B4ADD /* OnlineEventVM.swift */,
+				1C06241A24F64CBE00CE8B67 /* ProductDetailVM.swift */,
+				1C91A2AE24F3E64F0061E385 /* ChatVM.swift */,
+				1C9681F324F5272D00CBDA47 /* FollowingVM.swift */,
 				1C3E232C24EFA7AF007506F9 /* ShippingListVM.swift */,
+				1C7E8EA624F3825D00B208E0 /* LiveMatchListVM.swift */,
 				1C707E9A24EE4FFC00F74F6B /* CartListVM.swift */,
 				1CF2EA1824EAB38A0049DDDC /* AddAppointmentPopupVM.swift */,
 				1C707E9024EE397D00F74F6B /* OrderListVM.swift */,
@@ -452,13 +854,67 @@
 		69A0F2BC24B5A88000E36CFC /* Xib */ = {
 			isa = PBXGroup;
 			children = (
+				1C91A29524F3DD730061E385 /* Sender */,
+				1C91A29424F3DD6A0061E385 /* Receiver */,
 				1C95C3D924EBA83E0065EB2B /* MyLifeEmptyStateTVC.swift */,
+				1C12F7D9252AFF9200DE05FB /* SelectCompanyHeaderTVC.swift */,
+				1C04002E252C5C7C00BDF06F /* CardTVC.swift */,
+				1C040026252C4D6100BDF06F /* ViewLocationTVC.swift */,
+				1C040027252C4D6100BDF06F /* ViewLocationTVC.xib */,
+				1C9037112524B50F00E244EC /* ViewEventTVC.swift */,
+				1C040024252C45B500BDF06F /* MoreOptionTVC.swift */,
+				1C9037122524B50F00E244EC /* ViewEventTVC.xib */,
+				1C12F7D3252AF99900DE05FB /* CommentListTVC.swift */,
+				1C52E8EB2526023200C33019 /* ReactionListTVC.swift */,
+				1C52E8F125260AA500C33019 /* ChooseFeelingCVC.swift */,
+				1C9037152524BC2E00E244EC /* ViewMoneyTVC.swift */,
+				1C9037162524BC2E00E244EC /* ViewMoneyTVC.xib */,
+				1CB6993F251DFB05007C76E7 /* EventReviewHeaderTVC.swift */,
+				1C9037092524A5A100E244EC /* ViewSplitBillTVC.swift */,
+				1C90370B2524A7B300E244EC /* ViewSplitBillTVC.xib */,
+				1C903707252492CD00E244EC /* ChatItemsCVC.swift */,
+				1C90370D2524AFD000E244EC /* ViewPollTVC.swift */,
+				1C90370E2524AFD000E244EC /* ViewPollTVC.xib */,
+				1CB69927251DA53E007C76E7 /* SelectMemberTVC.swift */,
+				1C34A70E251CC2C1000CEDB8 /* SplitBillHeaderTVC.swift */,
+				1C20D05B251230DD00B48D07 /* PartyPlanarHeaderTVC.swift */,
+				1C45D7A425138BA4007DC6C9 /* SelectPaymentTVC.swift */,
+				1CB6992D251DB7CF007C76E7 /* SelectChatHeaderTVC.swift */,
+				1C45D7AE251394F7007DC6C9 /* PeopleYouKnowTVC.swift */,
+				1C45D7AF251394F7007DC6C9 /* PeopleYouKnowTVC.xib */,
+				1C45D7AA25139247007DC6C9 /* RequestTVC.swift */,
+				1C45D7AB25139247007DC6C9 /* RequestTVC.xib */,
+				1C45D7A625139140007DC6C9 /* FriendRequestHeaderTVC.swift */,
+				1C45D7A725139140007DC6C9 /* FriendRequestHeaderTVC.xib */,
+				1C0425D025063B15005685DD /* VoteHeaderTVC.swift */,
+				1C20D05725120EE500B48D07 /* DreamHeaderTVC.swift */,
+				1C20D0492511E79C00B48D07 /* ServiceBannerCVC.swift */,
+				1C20D04B2511E82D00B48D07 /* ServicesTVC.swift */,
+				1C20D0512511FA0F00B48D07 /* TimingsCVC.swift */,
+				1C20D04F2511F88D00B48D07 /* DiscoverTVC.swift */,
+				1C9FF4E42507AA05004A0AB6 /* PromotionTVC.swift */,
+				1C9389312500FE3B00EB8E4F /* TopStoreCVC.swift */,
+				1C0425DA2506653B005685DD /* AvailableProviderTVC.swift */,
+				1C0D34A224FE29560042FEAC /* StoreMerchantBannerCVC.swift */,
+				1C93892F2500FE0A00EB8E4F /* TopStoreTVC.swift */,
+				1C95408625024DDD00B7F925 /* PersonalityCVC.swift */,
 				1C707E9E24EE659C00F74F6B /* ChooseBannerCVC.swift */,
+				1C0D34A024FE24030042FEAC /* StoreMerchantBannerTVC.swift */,
+				1C0D349A24FE094C0042FEAC /* ViewCartCVC.swift */,
+				1C1B0E5724F78D0700ED2E68 /* OnlineEventBannerCVC.swift */,
+				1C9681F124F526F700CBDA47 /* FollowingCVC.swift */,
+				1C06241C24F64D1000CE8B67 /* ProductDetailBannerCVC.swift */,
+				1CB93B1E24F93A3F00BCE1E6 /* AddShippingAddressTVC.swift */,
+				1C1B0E5524F78A9500ED2E68 /* OnlineEventBannerTVC.swift */,
+				1C7E8EA224F3801B00B208E0 /* LiveScoreCVC.swift */,
 				1C3E232E24EFA80F007506F9 /* ShippingListTVC.swift */,
 				1C707E9C24EE50D300F74F6B /* CartListTVC.swift */,
+				1C9681EF24F526D100CBDA47 /* FollowingTVC.swift */,
+				1C06241624F625C500CE8B67 /* StoreCategoryCVC.swift */,
 				1C707E9624EE3BA300F74F6B /* PaymentStatusCVC.swift */,
 				1C707E9424EE3B3200F74F6B /* OrderCategoryCVC.swift */,
 				1C707E9224EE39FC00F74F6B /* OrderListTVC.swift */,
+				1C91A2B224F3EF500061E385 /* DreamCVC.swift */,
 				1C7B9CA224ED5EB600EFF495 /* FavouriteTVC.swift */,
 				1CBAB7D924ECEF16004A9248 /* MarketHeaderTVC.swift */,
 				1CBAB7D724ECEE9D004A9248 /* MarketBannerCVC.swift */,
@@ -535,6 +991,7 @@
 				A9AD813024BF1C90003A145B /* TrendingCVC.xib */,
 				A9AD813324BF1CAC003A145B /* PropertySaleCVC.swift */,
 				A9AD813424BF1CAC003A145B /* PropertySaleCVC.xib */,
+				1C7E8EA424F3817E00B208E0 /* LiveScoreTVC.swift */,
 			);
 			path = Xib;
 			sourceTree = "<group>";
@@ -564,6 +1021,7 @@
 		737C31DB24B09FFF002CC90E /* all-in-1-app-ios-1407 */ = {
 			isa = PBXGroup;
 			children = (
+				1CAE9F06251369DE00BBF598 /* all-in-1-app-ios-1407-Bridging-Header.h */,
 				737C31DC24B09FFF002CC90E /* AppDelegate.swift */,
 				737C31DE24B09FFF002CC90E /* SceneDelegate.swift */,
 				69A0F2BC24B5A88000E36CFC /* Xib */,
@@ -612,6 +1070,8 @@
 		737C321524B0B085002CC90E /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				1CAE9EFC25135F5D00BBF598 /* LNNumberpad */,
+				1C0D349C24FE207C0042FEAC /* FloatRatingView.swift */,
 				1C50ABCE24E3B7C900D8CA9E /* CornerRounded.swift */,
 				737C321624B0B085002CC90E /* Constant.swift */,
 				737C321724B0B085002CC90E /* SlideMenuController.swift */,
@@ -631,6 +1091,73 @@
 			isa = PBXGroup;
 			children = (
 				BAE2B40924DAA4D20009B0EE /* DueTodayTaskVC.swift */,
+				1C040030252C69F700BDF06F /* WalletIntroIncome.swift */,
+				1C040032252C6E2B00BDF06F /* WalletIntroCardVC.swift */,
+				1C040022252C454C00BDF06F /* ChatMoreOptionPopupVC.swift */,
+				1C12F7CF252AEA9E00DE05FB /* AddPlaceVC.swift */,
+				1C12F7D1252AF8EA00DE05FB /* CommentListVC.swift */,
+				1C04002A252C5B6B00BDF06F /* MyCardVC.swift */,
+				1C12F7DD252B064400DE05FB /* MyIncomeListVC.swift */,
+				1C90370525247B0900E244EC /* ChooseBirthdayVC.swift */,
+				1C52E8E9252601E000C33019 /* ReactionListVC.swift */,
+				1C12F7D7252AFEBD00DE05FB /* SelectCompanyVC.swift */,
+				1C52E8EF252609FD00C33019 /* AddFeelingVC.swift */,
+				1C9710042525D94E00899E41 /* CreatePostCVC.swift */,
+				1C9710022525BF4C00899E41 /* CreatePostVC.swift */,
+				1CEB91222521A54900074F37 /* AddSplitBillVC.swift */,
+				1CEB91262521B27700074F37 /* CreatePollVC.swift */,
+				1C970FFE2525B49000899E41 /* MentionVC.swift */,
+				1CEB91282521BD2300074F37 /* AddPollVC.swift */,
+				1CEB91242521AB6A00074F37 /* SendToChatPopupVC.swift */,
+				1CB6993B251DF98F007C76E7 /* EventReviewVC.swift */,
+				1CB69939251DCD24007C76E7 /* AddEventVC.swift */,
+				1C34A714251CD00E000CEDB8 /* SelectMembersVC.swift */,
+				1CB69929251DAB70007C76E7 /* CreateEventVC.swift */,
+				1CB6992B251DB52C007C76E7 /* SelectChatVC.swift */,
+				1C34A70C251CC23E000CEDB8 /* SplitBillDetailVC.swift */,
+				1C964CB12514BFD600330580 /* StartPersonalityTestVC.swift */,
+				1C964CB52514C38500330580 /* ChooseLanguageVC.swift */,
+				1C964CB72514D2AB00330580 /* SetUsernameVC.swift */,
+				1C45D7A225138B08007DC6C9 /* SelectPaymentPopupVC.swift */,
+				1C20D0452511E61500B48D07 /* ServicesVC.swift */,
+				1CAE9F092513865600BBF598 /* RequestSucceedVC.swift */,
+				1CAE9F04251365C600BBF598 /* RequestMoneyVC.swift */,
+				1C9FF4E62507B4E1004A0AB6 /* OrderProviderInfo.swift */,
+				1CAE9F072513828100BBF598 /* SendMoneyVC.swift */,
+				1C20D05925122FB800B48D07 /* PartyPlanarVC.swift */,
+				1C20D04D2511F75D00B48D07 /* DiscoverVC.swift */,
+				1C0425CE250639D2005685DD /* VoteVC.swift */,
+				1C20D0432511D52700B48D07 /* TranscationsDetailVC.swift */,
+				1C9FF4E22507A943004A0AB6 /* PromotionsListVC.swift */,
+				1C0425D825066433005685DD /* AvailableProviderVC.swift */,
+				1C95408E2502767500B7F925 /* DreamListVC.swift */,
+				1C0425D425064966005685DD /* VoteResultsVC.swift */,
+				1C0425CC25061187005685DD /* ScanQrVC.swift */,
+				1C95408C250272DB00B7F925 /* QrCodeVC.swift */,
+				1C0425C82505EF2C005685DD /* ProcessingOrderPopupVC.swift */,
+				1CA3409824FFA2BD00445156 /* AddExperienceVC.swift */,
+				1C95408425024CAF00B7F925 /* PersonalityTypeVC.swift */,
+				1C9389352501145F00EB8E4F /* SortFilterVC.swift */,
+				1C93892D2500FC9A00EB8E4F /* StoreVC.swift */,
+				1CA3409624FF95CB00445156 /* AddSkillsVC.swift */,
+				1C0D34AC24FE7FEE0042FEAC /* AddCVPopupVC.swift */,
+				1C26DA9024FF83F2000BE6C8 /* AddEducationVC.swift */,
+				1C0D349E24FE23730042FEAC /* StoreMerchantHomeVC.swift */,
+				1CA3409424FF8DB500445156 /* SaveLocationVC.swift */,
+				1C0D349824FE07F10042FEAC /* RelatedProductPopupVC.swift */,
+				1C0D34AA24FE7D320042FEAC /* ChooseLocationVC.swift */,
+				1C0D34A624FE57AD0042FEAC /* PaymentListVC.swift */,
+				1C11DFC124FD0454005DFA2D /* ChooseShippingVC.swift */,
+				1CB93B1C24F9399400BCE1E6 /* CheckOutVC.swift */,
+				1C06241224F6241D00CE8B67 /* StoreCategoryVC.swift */,
+				1C06241824F64A7200CE8B67 /* ProductDetailVC.swift */,
+				1C1B0E5324F7896100ED2E68 /* OnlineEventVC.swift */,
+				1C9681ED24F525B600CBDA47 /* FollowingVC.swift */,
+				1C9681F524F5298600CBDA47 /* TabBarVC.swift */,
+				1C91A2B024F3EE6F0061E385 /* DreamPopUpVC.swift */,
+				1C91A29224F3DC8A0061E385 /* ChatVC.swift */,
+				1C7E8EA024F37F1B00B208E0 /* LiveMatchListVC.swift */,
+				1C3E233424EFFC3D007506F9 /* FoodDeliveryVC.swift */,
 				1C3E232A24EFA6FF007506F9 /* ShippingListVC.swift */,
 				1CBAB7D524ECEE18004A9248 /* MarketVC.swift */,
 				1C3E232824EFA115007506F9 /* AddShippingVC.swift */,
@@ -670,6 +1197,8 @@
 				A9AD812724BF0F20003A145B /* MomentVC.swift */,
 				A9F865E624B6D8E5008B909E /* EventsVC.swift */,
 				A9AD812924BF13E4003A145B /* ShopVC.swift */,
+				1C0D34A824FE694F0042FEAC /* StoreCompletedPopupVC.swift */,
+				1C34A712251CC9CD000CEDB8 /* CreateSplitBillVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -805,18 +1334,26 @@
 				1C93058524C82CBB00D03ACD /* SFProText-Regular.ttf in Resources */,
 				1C50ABDB24E3BECE00D8CA9E /* MomentCommentTVC.xib in Resources */,
 				1C50ABD724E3BA8700D8CA9E /* MomentVideoTVC.xib in Resources */,
+				1C9037102524AFD000E244EC /* ViewPollTVC.xib in Resources */,
 				69F2BFCF24B82DFC0067C473 /* NewsListTVC.xib in Resources */,
+				1C91A2AD24F3DD930061E385 /* SenderVideoTVC.xib in Resources */,
 				737C31E924B0A00F002CC90E /* LaunchScreen.storyboard in Resources */,
 				6964147624BD9CA30056F7AC /* HealthMealCVC.xib in Resources */,
+				1C9037182524BC2E00E244EC /* ViewMoneyTVC.xib in Resources */,
 				A9F865EF24B6E5E0008B909E /* PopularPromoCVC.xib in Resources */,
 				A9F865F724B6EC5F008B909E /* PromoTVC.xib in Resources */,
+				1C91A2A824F3DD930061E385 /* SenderImgTVC.xib in Resources */,
 				1C50ABCD24E3B55200D8CA9E /* MomentFlightCVC.xib in Resources */,
 				69A0F2C224B5A90300E36CFC /* HomeTVC.xib in Resources */,
+				1C45D7A925139140007DC6C9 /* FriendRequestHeaderTVC.xib in Resources */,
+				1CAE9F0325135F5D00BBF598 /* LNNumberpad.xib in Resources */,
 				6964147524BD9CA30056F7AC /* MenuTVC.xib in Resources */,
 				A9F8660324B73B32008B909E /* MessagesTVC.xib in Resources */,
 				1C50ABD324E3B8BE00D8CA9E /* MomentQuoteTVC.xib in Resources */,
+				1C45D7AD25139247007DC6C9 /* RequestTVC.xib in Resources */,
 				A9F865F324B6E6E8008B909E /* PromoCVC.xib in Resources */,
 				73B6264824BDAACE00F42C86 /* InfoCVC.xib in Resources */,
+				1C45D7B1251394F7007DC6C9 /* PeopleYouKnowTVC.xib in Resources */,
 				69F2BFCB24B827AD0067C473 /* NewsListCVC.xib in Resources */,
 				69F2BFDD24B8325F0067C473 /* NewsListOnTheSpotCVC.xib in Resources */,
 				6964148024BD9EC30056F7AC /* ReligionTVC.xib in Resources */,
@@ -828,11 +1365,19 @@
 				A9AD813224BF1C90003A145B /* TrendingCVC.xib in Resources */,
 				737C31E624B0A00F002CC90E /* Assets.xcassets in Resources */,
 				69F2BFE524B8688A0067C473 /* NewsDetailsTagsCVC.xib in Resources */,
+				1C91A29E24F3DD830061E385 /* ReceiverTxtTVC.xib in Resources */,
 				737C31E424B09FFF002CC90E /* Main.storyboard in Resources */,
+				1C91A29F24F3DD830061E385 /* ReceiverImgTVC.xib in Resources */,
 				1C95C3DC24EBA83E0065EB2B /* MyLifeEmptyStateTVC.xib in Resources */,
 				1C93057C24C7F73200D03ACD /* PreferencesCVC.xib in Resources */,
 				69F2BFD924B831EA0067C473 /* NewsListHeaderTVC.xib in Resources */,
+				1C9037142524B50F00E244EC /* ViewEventTVC.xib in Resources */,
+				1CAE9F0125135F5D00BBF598 /* LNHexNumberpad.xib in Resources */,
 				A9AD813624BF1CAC003A145B /* PropertySaleCVC.xib in Resources */,
+				1C90370C2524A7B300E244EC /* ViewSplitBillTVC.xib in Resources */,
+				1C91A2AB24F3DD930061E385 /* SenderTxtTVC.xib in Resources */,
+				1C040029252C4D6100BDF06F /* ViewLocationTVC.xib in Resources */,
+				1C91A2A124F3DD830061E385 /* ReceiverVideoTVC.xib in Resources */,
 				1C50ABE124E3EC8E00D8CA9E /* MomentTextTVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -902,140 +1447,291 @@
 			files = (
 				6964148224BD9EC30056F7AC /* WalletTVC.swift in Sources */,
 				737C322624B0B085002CC90E /* Extensions.swift in Sources */,
+				1C20D0482511E73700B48D07 /* ServicesVM.swift in Sources */,
 				A9470B3724B47D290055D621 /* LoginVC.swift in Sources */,
 				1C3E232F24EFA80F007506F9 /* ShippingListTVC.swift in Sources */,
 				A9F8660524B73E7F008B909E /* MessagesVM.swift in Sources */,
 				73B6264524BDAAAB00F42C86 /* YourPersonalityVM.swift in Sources */,
 				1CBAB7DA24ECEF16004A9248 /* MarketHeaderTVC.swift in Sources */,
+				1CB6993A251DCD24007C76E7 /* AddEventVC.swift in Sources */,
 				6964146A24BD9C590056F7AC /* ReligionVM.swift in Sources */,
+				1C0D34A324FE29560042FEAC /* StoreMerchantBannerCVC.swift in Sources */,
+				1C90370F2524AFD000E244EC /* ViewPollTVC.swift in Sources */,
+				1C06241524F624D800CE8B67 /* StoreCategoryVM.swift in Sources */,
+				1C0425D325063C76005685DD /* VoteVM.swift in Sources */,
+				1C9710032525BF4C00899E41 /* CreatePostVC.swift in Sources */,
+				1CB6992E251DB7CF007C76E7 /* SelectChatHeaderTVC.swift in Sources */,
 				6964148124BD9EC30056F7AC /* ReligionTVC.swift in Sources */,
 				1CF2EA1724EAA4DA0049DDDC /* AppointmentListTVC.swift in Sources */,
 				69A0F2B324B586B600E36CFC /* SelectTypeVM.swift in Sources */,
+				1C91A2AA24F3DD930061E385 /* SenderImgTVC.swift in Sources */,
 				1C3E232B24EFA6FF007506F9 /* ShippingListVC.swift in Sources */,
+				1C0425DB2506653B005685DD /* AvailableProviderTVC.swift in Sources */,
 				1CBA6C6224E568D500BE1DF2 /* OrderPlacedPopupVC.swift in Sources */,
+				1C0425D725064B57005685DD /* VoteResultsVM.swift in Sources */,
+				1CEB91272521B27700074F37 /* CreatePollVC.swift in Sources */,
+				1C0425CB250603D9005685DD /* MyTicketListVM.swift in Sources */,
+				1C1B0E5624F78A9500ED2E68 /* OnlineEventBannerTVC.swift in Sources */,
+				1C9681F024F526D100CBDA47 /* FollowingTVC.swift in Sources */,
+				1C34A711251CC427000CEDB8 /* SplitBillDetailVM.swift in Sources */,
+				1C45D7B0251394F7007DC6C9 /* PeopleYouKnowTVC.swift in Sources */,
 				69F2BFEF24B88E7C0067C473 /* MusicTVC.swift in Sources */,
 				69A0F2BB24B5A27200E36CFC /* HomeVC.swift in Sources */,
 				737C322224B0B085002CC90E /* SlideMenuController.swift in Sources */,
+				1C0425D125063B15005685DD /* VoteHeaderTVC.swift in Sources */,
 				A9F865F624B6EC5F008B909E /* PromoTVC.swift in Sources */,
+				1C04002F252C5C7C00BDF06F /* CardTVC.swift in Sources */,
+				1C34A70D251CC23E000CEDB8 /* SplitBillDetailVC.swift in Sources */,
 				737C31DD24B09FFF002CC90E /* AppDelegate.swift in Sources */,
+				1C91A29324F3DC8A0061E385 /* ChatVC.swift in Sources */,
 				1C707E9524EE3B3200F74F6B /* OrderCategoryCVC.swift in Sources */,
+				1C964CB22514BFD600330580 /* StartPersonalityTestVC.swift in Sources */,
+				1CB93B1D24F9399400BCE1E6 /* CheckOutVC.swift in Sources */,
 				6964146824BD9C590056F7AC /* MenuVM.swift in Sources */,
+				1C0D349B24FE094C0042FEAC /* ViewCartCVC.swift in Sources */,
+				1C12F7D0252AEA9E00DE05FB /* AddPlaceVC.swift in Sources */,
+				1CEB91292521BD2300074F37 /* AddPollVC.swift in Sources */,
+				1C20D05825120EE500B48D07 /* DreamHeaderTVC.swift in Sources */,
 				1CF2EA0D24EA67B20049DDDC /* AddFriendPopupVC.swift in Sources */,
 				737C322B24B0B085002CC90E /* AlertMessagesConstant.swift in Sources */,
 				69F2BFF924B8967B0067C473 /* MusicHeaderTVC.swift in Sources */,
+				1C7E8EA724F3825D00B208E0 /* LiveMatchListVM.swift in Sources */,
+				1C9710072525D97900899E41 /* CreatePostVM.swift in Sources */,
 				1C50ABE324E404B600D8CA9E /* AddTodoPopupVC.swift in Sources */,
+				1C0D349924FE07F10042FEAC /* RelatedProductPopupVC.swift in Sources */,
+				1C06241D24F64D1000CE8B67 /* ProductDetailBannerCVC.swift in Sources */,
+				1C26DA9124FF83F2000BE6C8 /* AddEducationVC.swift in Sources */,
+				1C93892E2500FC9A00EB8E4F /* StoreVC.swift in Sources */,
+				1CB6992A251DAB70007C76E7 /* CreateEventVC.swift in Sources */,
 				1C93057B24C7F73200D03ACD /* PreferencesCVC.swift in Sources */,
+				1C20D0462511E61500B48D07 /* ServicesVC.swift in Sources */,
+				1C3E233524EFFC3D007506F9 /* FoodDeliveryVC.swift in Sources */,
+				1C52E8EC2526023200C33019 /* ReactionListTVC.swift in Sources */,
+				1CAE9F0A2513865600BBF598 /* RequestSucceedVC.swift in Sources */,
+				1C12F7D8252AFEBD00DE05FB /* SelectCompanyVC.swift in Sources */,
 				1C50ABE524E406B100D8CA9E /* ChooseDateTimeVC.swift in Sources */,
+				1CEB91232521A54900074F37 /* AddSplitBillVC.swift in Sources */,
 				73B6264B24BDAB0C00F42C86 /* YourPersonalityVC.swift in Sources */,
+				1C1B0E5424F7896100ED2E68 /* OnlineEventVC.swift in Sources */,
 				1C7B9C9F24ED374800EFF495 /* MarketVM.swift in Sources */,
 				1C93058024C7F89600D03ACD /* PreferencesVM.swift in Sources */,
+				1C9681F624F5298600CBDA47 /* TabBarVC.swift in Sources */,
 				69F2BFE424B8688A0067C473 /* NewsDetailsTagsCVC.swift in Sources */,
+				1C0D349F24FE23730042FEAC /* StoreMerchantHomeVC.swift in Sources */,
+				1C04002D252C5C0200BDF06F /* MyCardVM.swift in Sources */,
 				1C707E9B24EE4FFC00F74F6B /* CartListVM.swift in Sources */,
+				1C9FF4E72507B4E1004A0AB6 /* OrderProviderInfo.swift in Sources */,
 				A9F865E724B6D8E5008B909E /* EventsVC.swift in Sources */,
+				1C0D34A924FE694F0042FEAC /* StoreCompletedPopupVC.swift in Sources */,
 				A9A0E42824B480ED0020A312 /* VerificationVC.swift in Sources */,
 				6964145F24BD9C2E0056F7AC /* ReligionVC.swift in Sources */,
+				1C34A713251CC9CD000CEDB8 /* CreateSplitBillVC.swift in Sources */,
+				1C12F7D6252AFAAE00DE05FB /* CommentListVM.swift in Sources */,
+				1C12F7DA252AFF9200DE05FB /* SelectCompanyHeaderTVC.swift in Sources */,
 				1C707E9124EE397D00F74F6B /* OrderListVM.swift in Sources */,
+				1C0425D525064966005685DD /* VoteResultsVC.swift in Sources */,
+				1C12F7DC252B007F00DE05FB /* SelectCompanyVM.swift in Sources */,
+				1C90370A2524A5A100E244EC /* ViewSplitBillTVC.swift in Sources */,
 				1C93057E24C7F80700D03ACD /* PreferencesVC.swift in Sources */,
 				1CBA6C6624E56EF200BE1DF2 /* MyTicketHeaderTVC.swift in Sources */,
+				1C34A70F251CC2C1000CEDB8 /* SplitBillHeaderTVC.swift in Sources */,
+				1C20D0522511FA0F00B48D07 /* TimingsCVC.swift in Sources */,
+				1C20D05A25122FB800B48D07 /* PartyPlanarVC.swift in Sources */,
 				1CF2EA1924EAB38A0049DDDC /* AddAppointmentPopupVM.swift in Sources */,
+				1C95408725024DDD00B7F925 /* PersonalityCVC.swift in Sources */,
+				1CEB91252521AB6A00074F37 /* SendToChatPopupVC.swift in Sources */,
+				1C9037172524BC2E00E244EC /* ViewMoneyTVC.swift in Sources */,
 				BAE2B40C24DAA4D20009B0EE /* MyLifeVC.swift in Sources */,
+				1C45D7AC25139247007DC6C9 /* RequestTVC.swift in Sources */,
 				6964148424BD9EC30056F7AC /* SportsTVC.swift in Sources */,
+				1C91A2AC24F3DD930061E385 /* SenderVideoTVC.swift in Sources */,
+				1C7E8EA324F3801B00B208E0 /* LiveScoreCVC.swift in Sources */,
 				1C95C3DB24EBA83E0065EB2B /* MyLifeEmptyStateTVC.swift in Sources */,
+				1CB6993E251DFAD0007C76E7 /* EventReviewVM.swift in Sources */,
+				1C52E8EA252601E000C33019 /* ReactionListVC.swift in Sources */,
+				1CB69928251DA53E007C76E7 /* SelectMemberTVC.swift in Sources */,
+				1C12F7DE252B064400DE05FB /* MyIncomeListVC.swift in Sources */,
 				A9AD812824BF0F20003A145B /* MomentVC.swift in Sources */,
 				737C322924B0B085002CC90E /* AlertExtension.swift in Sources */,
 				A9A0E42A24B487640020A312 /* SelectTypeVC.swift in Sources */,
 				1C50ABCC24E3B55200D8CA9E /* MomentFlightCVC.swift in Sources */,
+				1CB69940251DFB05007C76E7 /* EventReviewHeaderTVC.swift in Sources */,
 				1C7B9CA124ED5D2B00EFF495 /* FavouriteVC.swift in Sources */,
 				1C50ABDA24E3BECE00D8CA9E /* MomentCommentTVC.swift in Sources */,
 				6964147724BD9CA30056F7AC /* HeaderTVC.swift in Sources */,
 				1C707E9324EE39FC00F74F6B /* OrderListTVC.swift in Sources */,
+				1C0425C92505EF2C005685DD /* ProcessingOrderPopupVC.swift in Sources */,
 				A9F8660724B73FCE008B909E /* MessagesCVC.swift in Sources */,
 				1C707E9724EE3BA300F74F6B /* PaymentStatusCVC.swift in Sources */,
+				1C95408525024CAF00B7F925 /* PersonalityTypeVC.swift in Sources */,
+				1C7E8EA124F37F1B00B208E0 /* LiveMatchListVC.swift in Sources */,
+				1C06241924F64A7200CE8B67 /* ProductDetailVC.swift in Sources */,
+				1CA3409724FF95CB00445156 /* AddSkillsVC.swift in Sources */,
+				1CAE9F05251365C600BBF598 /* RequestMoneyVC.swift in Sources */,
 				1C50ABD624E3BA8700D8CA9E /* MomentVideoTVC.swift in Sources */,
+				1CB69930251DB825007C76E7 /* SelectChatVM.swift in Sources */,
+				1C0D34AB24FE7D320042FEAC /* ChooseLocationVC.swift in Sources */,
+				1C9681F424F5272D00CBDA47 /* FollowingVM.swift in Sources */,
 				1C50ABCF24E3B7C900D8CA9E /* CornerRounded.swift in Sources */,
 				1CF2EA1324EA92DA0049DDDC /* AddAppointmentCVC.swift in Sources */,
+				1C0425D925066433005685DD /* AvailableProviderVC.swift in Sources */,
+				1CB6992C251DB52C007C76E7 /* SelectChatVC.swift in Sources */,
 				1CF2EA1524EAA2F30049DDDC /* AppointmentListVC.swift in Sources */,
+				1C9389322500FE3B00EB8E4F /* TopStoreCVC.swift in Sources */,
+				1C45D7A525138BA4007DC6C9 /* SelectPaymentTVC.swift in Sources */,
+				1C20D0442511D52700B48D07 /* TranscationsDetailVC.swift in Sources */,
+				1C9710012525B7FE00899E41 /* MentionVM.swift in Sources */,
+				1C0425CD25061187005685DD /* ScanQrVC.swift in Sources */,
 				BAE2B40F24DAA5330009B0EE /* DueTaskTodayVM.swift in Sources */,
 				1CBAB7D824ECEE9D004A9248 /* MarketBannerCVC.swift in Sources */,
+				1C11DFC024FCEC46005DFA2D /* CheckOutVM.swift in Sources */,
 				737C322424B0B085002CC90E /* Proxy.swift in Sources */,
+				1C0D34A724FE57AD0042FEAC /* PaymentListVC.swift in Sources */,
+				1C20D04C2511E82D00B48D07 /* ServicesTVC.swift in Sources */,
+				1C9710052525D94E00899E41 /* CreatePostCVC.swift in Sources */,
+				1C9FF4E52507AA05004A0AB6 /* PromotionTVC.swift in Sources */,
+				1C9389362501145F00EB8E4F /* SortFilterVC.swift in Sources */,
 				1C50ABDD24E3D71300D8CA9E /* MomentVM.swift in Sources */,
+				1C0D34A124FE24030042FEAC /* StoreMerchantBannerTVC.swift in Sources */,
+				1C1B0E5824F78D0700ED2E68 /* OnlineEventBannerCVC.swift in Sources */,
 				6964147824BD9CA30056F7AC /* HealthExerciseCVC.swift in Sources */,
 				69F2BFE124B866620067C473 /* NewsDetailsVM.swift in Sources */,
 				69A0F2C424B5C66300E36CFC /* HomeVM.swift in Sources */,
 				1C7B9CA324ED5EB600EFF495 /* FavouriteTVC.swift in Sources */,
+				1C91A2AF24F3E64F0061E385 /* ChatVM.swift in Sources */,
+				1C20D0502511F88D00B48D07 /* DiscoverTVC.swift in Sources */,
 				1C00093924EA4BD900A2A635 /* PositivityVC.swift in Sources */,
+				1C95408D250272DB00B7F925 /* QrCodeVC.swift in Sources */,
 				737C31DF24B09FFF002CC90E /* SceneDelegate.swift in Sources */,
 				A9AD813524BF1CAC003A145B /* PropertySaleCVC.swift in Sources */,
+				1C970FFF2525B49000899E41 /* MentionVC.swift in Sources */,
+				1C040031252C69F700BDF06F /* WalletIntroIncome.swift in Sources */,
 				6964146024BD9C2E0056F7AC /* WalletVC.swift in Sources */,
 				BAE2B41924DAA5890009B0EE /* MyLifeTypeCVC.swift in Sources */,
 				BAE2B40B24DAA4D20009B0EE /* DueTodayTaskVC.swift in Sources */,
 				A9F865F224B6E6E8008B909E /* PromoCVC.swift in Sources */,
 				73A9774624BF401300AFCADF /* ForgotPasswordVC.swift in Sources */,
 				1C707E9D24EE50D300F74F6B /* CartListTVC.swift in Sources */,
+				1C9389302500FE0A00EB8E4F /* TopStoreTVC.swift in Sources */,
 				A9AD813824BF235A003A145B /* ShopVM.swift in Sources */,
+				1C91A29D24F3DD830061E385 /* ReceiverImgTVC.swift in Sources */,
+				1C20D05E251232DC00B48D07 /* PartyPlanarVM.swift in Sources */,
+				1CB69926251DA4F4007C76E7 /* SelectMembersVM.swift in Sources */,
+				1CB93B1F24F93A3F00BCE1E6 /* AddShippingAddressTVC.swift in Sources */,
+				1C20D04E2511F75D00B48D07 /* DiscoverVC.swift in Sources */,
 				1C7B9CA524ED5F3D00EFF495 /* FavouriteVM.swift in Sources */,
+				1C9389382501152800EB8E4F /* SortFilterVM.swift in Sources */,
 				6964147324BD9CA30056F7AC /* DailyMacrosCVC.swift in Sources */,
 				BAE2B41324DAA54B0009B0EE /* DueTaskTodayHeaderTVC.swift in Sources */,
 				A9F8660224B73B32008B909E /* MessagesTVC.swift in Sources */,
 				737C322124B0B085002CC90E /* Constant.swift in Sources */,
+				1C9681F224F526F700CBDA47 /* FollowingCVC.swift in Sources */,
 				73B6264924BDAACE00F42C86 /* InfoCVC.swift in Sources */,
 				6964146624BD9C590056F7AC /* WalletVM.swift in Sources */,
 				1C00093B24EA4C9800A2A635 /* PositivityTVC.swift in Sources */,
+				1C8AB7F524F7CCE3001B4ADD /* OnlineEventVM.swift in Sources */,
 				1C50ABC824E3B0F800D8CA9E /* MomentFlightTVC.swift in Sources */,
+				1C0D34AD24FE7FEE0042FEAC /* AddCVPopupVC.swift in Sources */,
+				1C52E8F225260AA500C33019 /* ChooseFeelingCVC.swift in Sources */,
+				1CA3409524FF8DB500445156 /* SaveLocationVC.swift in Sources */,
 				6964147A24BD9CA30056F7AC /* HealthMealCVC.swift in Sources */,
+				1C12F7D2252AF8EA00DE05FB /* CommentListVC.swift in Sources */,
 				1CF2EA0F24EA68560049DDDC /* AddFriendTVC.swift in Sources */,
+				1C9037132524B50F00E244EC /* ViewEventTVC.swift in Sources */,
+				1C12F7E0252B080900DE05FB /* MyIncomeListVM.swift in Sources */,
 				69F2BFE724B88C860067C473 /* MusicVC.swift in Sources */,
+				1C9681EE24F525B600CBDA47 /* FollowingVC.swift in Sources */,
+				1C11DFC224FD0454005DFA2D /* ChooseShippingVC.swift in Sources */,
 				69A0F2B524B58B6C00E36CFC /* SplashVC.swift in Sources */,
 				1CBA6C6024E55DAE00BE1DF2 /* MyTicketCVC.swift in Sources */,
 				1C50ABD224E3B8BE00D8CA9E /* MomentQuoteTVC.swift in Sources */,
 				A9AD813124BF1C90003A145B /* TrendingCVC.swift in Sources */,
+				1C95408F2502767500B7F925 /* DreamListVC.swift in Sources */,
 				A9F865FB24B6F19C008B909E /* EventVM.swift in Sources */,
 				69F2BFDC24B8325F0067C473 /* NewsListOnTheSpotCVC.swift in Sources */,
+				1C20D05625120DD600B48D07 /* DreamListVM.swift in Sources */,
 				69F2BFE924B88D530067C473 /* MusicVM.swift in Sources */,
 				A9470B3524B47A560055D621 /* RegisterVC.swift in Sources */,
 				BAE2B41024DAA5330009B0EE /* MyLifeVM.swift in Sources */,
 				6964145D24BD9C2E0056F7AC /* MenuVC.swift in Sources */,
 				6964146724BD9C590056F7AC /* SportsVM.swift in Sources */,
 				69F2BFF224B88E9A0067C473 /* MusicHeaderCVC.swift in Sources */,
+				1C95408925024EEB00B7F925 /* PersonalityTypeVM.swift in Sources */,
 				1CF2EA0B24EA58780049DDDC /* AddPositivityPopupVC.swift in Sources */,
 				1C00093D24EA4F0E00A2A635 /* PositivityVM.swift in Sources */,
+				1C20D05C251230DD00B48D07 /* PartyPlanarHeaderTVC.swift in Sources */,
 				1C50ABE024E3EC8E00D8CA9E /* MomentTextTVC.swift in Sources */,
 				1C95C3DE24EBAB0D0065EB2B /* TodayAppointmentTVC.swift in Sources */,
 				69F2BFD124B830910067C473 /* NewsDetailsVC.swift in Sources */,
 				A9F865FF24B7310D008B909E /* MessagesVC.swift in Sources */,
 				6964147424BD9CA30056F7AC /* MenuTVC.swift in Sources */,
 				69F2BFCA24B827AD0067C473 /* NewsListCVC.swift in Sources */,
+				1C12F7D4252AF99900DE05FB /* CommentListTVC.swift in Sources */,
 				A9F865EA24B6D941008B909E /* EventCVC.swift in Sources */,
 				1C2E93A924C721EA005D5760 /* LoginVM.swift in Sources */,
+				1C91A2A924F3DD930061E385 /* SenderTxtTVC.swift in Sources */,
 				1C2E93A724C71E6F005D5760 /* RegisterVM.swift in Sources */,
+				1C040025252C45B500BDF06F /* MoreOptionTVC.swift in Sources */,
+				1C90370625247B0900E244EC /* ChooseBirthdayVC.swift in Sources */,
+				1C903708252492CD00E244EC /* ChatItemsCVC.swift in Sources */,
 				6964145E24BD9C2E0056F7AC /* SportsVC.swift in Sources */,
+				1CA3409924FFA2BD00445156 /* AddExperienceVC.swift in Sources */,
 				1C707E9F24EE659C00F74F6B /* ChooseBannerCVC.swift in Sources */,
 				69F2BFCE24B82DFC0067C473 /* NewsListTVC.swift in Sources */,
+				1C9389342500FEED00EB8E4F /* StoreVM.swift in Sources */,
 				737C322A24B0B085002CC90E /* ExtensionNSObject.swift in Sources */,
 				A9AD812A24BF13E4003A145B /* ShopVC.swift in Sources */,
+				1CB6993C251DF98F007C76E7 /* EventReviewVC.swift in Sources */,
+				1C34A715251CD00E000CEDB8 /* SelectMembersVC.swift in Sources */,
+				1C0425CF250639D2005685DD /* VoteVC.swift in Sources */,
 				69A0F2C124B5A90300E36CFC /* HomeTVC.swift in Sources */,
+				1C0D34A524FE2BAA0042FEAC /* StoreMerchantHomeVM.swift in Sources */,
 				69F2BFF624B88ECE0067C473 /* MusicCVC.swift in Sources */,
 				6964145C24BD9C2E0056F7AC /* HealthVC.swift in Sources */,
+				1C040023252C454C00BDF06F /* ChatMoreOptionPopupVC.swift in Sources */,
 				73B6264F24BDC61F00F42C86 /* SSProgressBar.swift in Sources */,
+				1CAE9F0225135F5D00BBF598 /* LNNumberpad.m in Sources */,
 				1C2E93AB24C72ACE005D5760 /* VerificationVM.swift in Sources */,
+				1C45D7A325138B08007DC6C9 /* SelectPaymentPopupVC.swift in Sources */,
 				69F2BFD824B831EA0067C473 /* NewsListHeaderTVC.swift in Sources */,
 				1CBA6C5E24E51DD100BE1DF2 /* MyTicketVC.swift in Sources */,
 				1CBAB7D624ECEE18004A9248 /* MarketVC.swift in Sources */,
+				1C040033252C6E2B00BDF06F /* WalletIntroCardVC.swift in Sources */,
+				1C06241324F6241D00CE8B67 /* StoreCategoryVC.swift in Sources */,
 				A9F865EE24B6E5E0008B909E /* PopularPromoCVC.swift in Sources */,
 				1CF2EA1124EA84AA0049DDDC /* AddAppointmentPopupVC.swift in Sources */,
+				1C91A2B324F3EF500061E385 /* DreamCVC.swift in Sources */,
 				6964146924BD9C590056F7AC /* HealthVM.swift in Sources */,
 				69A0F2C624B5D87300E36CFC /* HomeCVC.swift in Sources */,
+				1C52E8F0252609FD00C33019 /* AddFeelingVC.swift in Sources */,
+				1C9FF4E32507A943004A0AB6 /* PromotionsListVC.swift in Sources */,
+				1C91A2B124F3EE6F0061E385 /* DreamPopUpVC.swift in Sources */,
 				A9AD812D24BF1C7B003A145B /* CategoryCVC.swift in Sources */,
+				1C91A29C24F3DD830061E385 /* ReceiverTxtTVC.swift in Sources */,
+				1C040028252C4D6100BDF06F /* ViewLocationTVC.swift in Sources */,
 				1C3E232924EFA115007506F9 /* AddShippingVC.swift in Sources */,
 				1C707E8F24EE383100F74F6B /* OrderListVC.swift in Sources */,
 				69F2BFC524B81F380067C473 /* NewsListVC.swift in Sources */,
 				1C3E232D24EFA7AF007506F9 /* ShippingListVM.swift in Sources */,
+				1C0D349D24FE207C0042FEAC /* FloatRatingView.swift in Sources */,
+				1CAE9F082513828100BBF598 /* SendMoneyVC.swift in Sources */,
+				1C06241B24F64CBE00CE8B67 /* ProductDetailVM.swift in Sources */,
 				1C707E9924EE4FBA00F74F6B /* CartListVC.swift in Sources */,
+				1C964CB82514D2AB00330580 /* SetUsernameVC.swift in Sources */,
+				1C7E8EA524F3817E00B208E0 /* LiveScoreTVC.swift in Sources */,
+				1C91A2A024F3DD830061E385 /* ReceiverVideoTVC.swift in Sources */,
 				73B6264D24BDB66200F42C86 /* MainTBC.swift in Sources */,
 				69F2BFDF24B834320067C473 /* NewsListVM.swift in Sources */,
 				737C322524B0B085002CC90E /* ASToast.swift in Sources */,
+				1C20D0542511FABE00B48D07 /* DiscoverVM.swift in Sources */,
 				737C322824B0B085002CC90E /* RootControllerProxy.swift in Sources */,
+				1C20D04A2511E79C00B48D07 /* ServiceBannerCVC.swift in Sources */,
+				1C06241724F625C500CE8B67 /* StoreCategoryCVC.swift in Sources */,
+				1C45D7A825139140007DC6C9 /* FriendRequestHeaderTVC.swift in Sources */,
 				1CBA6C6424E56E6500BE1DF2 /* MyTicketListVC.swift in Sources */,
+				1C04002B252C5B6B00BDF06F /* MyCardVC.swift in Sources */,
+				1C964CB62514C38500330580 /* ChooseLanguageVC.swift in Sources */,
+				1C52E8EE252602F000C33019 /* ReactionListVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1167,6 +1863,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.mansour;
 				PRODUCT_NAME = Mansour;
 				PROVISIONING_PROFILE_SPECIFIER = MansourAdhocProv;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/sagar.sachdeva/Downloads/all-in-1-app-ios-1407-master/all-in-1-app-ios-1407/all-in-1-app-ios-1407-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1345,6 +2042,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.mansour;
 				PRODUCT_NAME = Mansour;
 				PROVISIONING_PROFILE_SPECIFIER = MansourDevProv;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/sagar.sachdeva/Downloads/all-in-1-app-ios-1407-master/all-in-1-app-ios-1407/all-in-1-app-ios-1407-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1367,6 +2065,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.mansour;
 				PRODUCT_NAME = Mansour;
 				PROVISIONING_PROFILE_SPECIFIER = MansourAppStoreProv;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/sagar.sachdeva/Downloads/all-in-1-app-ios-1407-master/all-in-1-app-ios-1407/all-in-1-app-ios-1407-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

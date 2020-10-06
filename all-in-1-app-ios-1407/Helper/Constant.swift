@@ -25,8 +25,9 @@ enum DeviceInfo{
 }
 
 enum FontName {
-    static let bold = "SF-UI-Text-Bold"
-    static let regular = "SF-UI-Text-Bold"
+    static let bold = "SFUIText-Bold"
+    static let medium = "SFUIText-Medium"
+    static let regular = "SF UI Text"
 }
 
 enum AccessToken : String {
@@ -39,9 +40,13 @@ var dollerCurrency: String{
     return "$"
 }
 enum Color {
-    static let dustyOrange = UIColor(red: 236/255, green: 132/255, blue: 54/255, alpha: 1)
+    static let dustyOrange = UIColor(red: 255/255, green: 89/255, blue: 32/255, alpha: 1)
     static let lightGreyText = UIColor(red: 226/255, green:232/255, blue: 238/255, alpha: 1)
     static let darkGreyText = UIColor(red: 151/255, green:151/255, blue: 151/255, alpha: 1)
+    static let green = UIColor(red: 26/255, green:155/255, blue: 115/255, alpha: 1)
+    static let blue = UIColor(red: 83/255, green:101/255, blue: 251/255, alpha: 1)
+    static let sky = UIColor(red: 15/255, green:181/255, blue: 229/255, alpha: 1)
+    static let fadeGrey = UIColor(red: 135/255, green:148/255, blue: 174/255, alpha: 1)
 }
 
 var mainStoryboard: UIStoryboard{

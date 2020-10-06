@@ -1,5 +1,5 @@
 //
- /**
+/**
  *
  *@copyright : ToXSL Technologies Pvt. Ltd. < www.toxsl.com >
  *@author     : Shiv Charan Panjeta < shiv@toxsl.com >
@@ -17,6 +17,9 @@ class MyTicketListVC: UIViewController {
     //MARK:- IBOutlets
     @IBOutlet weak var tblVwMyTicket: UITableView!
     
+    //MARK:- Object
+    var objMyTicketListVM = MyTicketListVM()
+    
     //MARK:- View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,5 +27,6 @@ class MyTicketListVC: UIViewController {
     
     //MARK:- IBActions
     @IBAction func actionBack(_ sender: Any) {
+        popToBack()
     }
 }

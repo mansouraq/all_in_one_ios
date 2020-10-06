@@ -36,7 +36,7 @@ class MenuVC: UIViewController {
     func logoutAlert() {
         let controller = UIAlertController(title: AppInfo.appName, message: AlertMessage.logout, preferredStyle: .alert)
         let okAction = UIAlertAction(title: TitleMessage.ok, style: .default) { (action) in
-            RootControllerProxy.shared.rootWithoutDrawer(SelectTypeVC.className)
+            RootControllerProxy.shared.rootWithoutDrawer(ChooseLanguageVC.className)
             Proxy.shared.displayStatusAlert(AlertMessage.logoutSuccess)
         }
         let cancelAction = UIAlertAction(title: TitleMessage.cancelSmall, style: .default, handler: nil)

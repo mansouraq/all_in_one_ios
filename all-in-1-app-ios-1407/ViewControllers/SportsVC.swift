@@ -23,11 +23,12 @@ class SportsVC: UIViewController {
     //MARK:- View Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        Proxy.shared.registerNib(tblVwSports, identifierCell: "SportsTVC")
     }
     //MARK:- Actions
     @IBAction func actionBack(_ sender: UIButton) {
         popToBack()
     }
-    
+    @IBAction func actionViewAll(_ sender: Any) {
+        pushToNext(LiveMatchListVC.className)
+    }
 }

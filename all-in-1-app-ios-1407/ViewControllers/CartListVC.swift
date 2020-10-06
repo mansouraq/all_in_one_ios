@@ -28,9 +28,11 @@ class CartListVC: UIViewController {
     
     //MARK:- IBActions
     @IBAction func actionPurchaseNow(_ sender: Any) {
+        pushToNext(CheckOutVC.className)
     }
     @IBAction func actionSelectAll(_ sender: Any) {
     }
-    @IBAction func actionDelete(_ sender: Any) {
+    @IBAction func actionDelete(_ sender: UIButton) {
+        sender.isSelected = !sender.isSelected
     }
 }

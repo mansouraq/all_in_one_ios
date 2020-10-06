@@ -1,40 +1,56 @@
 PODS:
   - FSCalendar (2.8.1)
+  - Gallery (2.2.2)
   - IQKeyboardManager (6.5.5)
   - JJFloatingActionButton (2.5.0)
+  - OnlyPictures (1.1.2)
   - PinterestLayout (1.0.3)
+  - SCPageControl (0.4.0)
   - SKCountryPicker (1.2.9)
   - SkyFloatingLabelTextField (3.8.0)
+  - SNCollectionViewLayout (1.0.1)
   - UBottomSheet (1.0.7)
 
 DEPENDENCIES:
   - FSCalendar
+  - Gallery
   - IQKeyboardManager
   - JJFloatingActionButton
+  - OnlyPictures
   - PinterestLayout
+  - SCPageControl
   - SKCountryPicker
   - SkyFloatingLabelTextField
+  - SNCollectionViewLayout
   - UBottomSheet
 
 SPEC REPOS:
   trunk:
     - FSCalendar
+    - Gallery
     - IQKeyboardManager
     - JJFloatingActionButton
+    - OnlyPictures
     - PinterestLayout
+    - SCPageControl
     - SKCountryPicker
     - SkyFloatingLabelTextField
+    - SNCollectionViewLayout
     - UBottomSheet
 
 SPEC CHECKSUMS:
   FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+  Gallery: 634ea7d58b93fcb8e787a846febac73ec354e7d9
   IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
   JJFloatingActionButton: fdc3aefb0f28f04d0f988fa25d5fac97028a9ea7
+  OnlyPictures: c819b67e20f45493d49f38f4de5e630b7e8cbae0
   PinterestLayout: f1c7ec0254ffa842d69f1b43e4436c8ded4359b9
+  SCPageControl: 8a8dfbba7d7d8c66487a317cb4c4578a7e4af27a
   SKCountryPicker: 7ad1e7dfb482cfb26855e33c2d70dbf1eaf218fe
   SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  SNCollectionViewLayout: 9991574aa022237c75acf0e3dc890b09aa4e4c31
   UBottomSheet: f5b325d5f06e952ae337d2d806307f61fe806a79
 
-PODFILE CHECKSUM: e190e4413043f1b0b5706462cd1f591b0c8d9463
+PODFILE CHECKSUM: fe94b361ba6c834c9ccadcc44b1cfeb92e2c8a3a
 
 COCOAPODS: 1.8.3

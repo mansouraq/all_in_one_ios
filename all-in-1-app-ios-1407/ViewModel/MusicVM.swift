@@ -1,14 +1,14 @@
 //
 /**
-*
-*@copyright : ToXSL Technologies Pvt. Ltd. < www.toxsl.com >
-*@author     : Shiv Charan Panjeta < shiv@toxsl.com >
-*
-* All Rights Reserved.
-* Proprietary and confidential :  All information contained herein is, and remains
-* the property of ToXSL Technologies Pvt. Ltd. and its partners.
-* Unauthorized copying of this file, via any medium is strictly prohibited.
-*/
+ *
+ *@copyright : ToXSL Technologies Pvt. Ltd. < www.toxsl.com >
+ *@author     : Shiv Charan Panjeta < shiv@toxsl.com >
+ *
+ * All Rights Reserved.
+ * Proprietary and confidential :  All information contained herein is, and remains
+ * the property of ToXSL Technologies Pvt. Ltd. and its partners.
+ * Unauthorized copying of this file, via any medium is strictly prohibited.
+ */
 
 import UIKit
 class MusicVM : NSObject {
@@ -27,12 +27,22 @@ extension MusicVC: UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MusicTVC") as! MusicTVC
-        cell.reloadData()
-        return cell
+        if indexPath.section == 2 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "MusicArtistTVC") as! MusicArtistTVC
+            cell.reloadData()
+            return cell
+        } else {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "MusicTVC") as! MusicTVC
+            cell.reloadData(indexPath.section)
+            return cell
+        }
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 235
+        if indexPath.section == 2 {
+            return 135
+        } else {
+            return 225
+        }
     }
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MusicHeaderTVC") as! MusicHeaderTVC

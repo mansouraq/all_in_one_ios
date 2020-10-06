@@ -101,7 +101,6 @@ extension UIView {
         self.layer.mask = shapeLayer
     }
     
-    
     func addDashedBorder(start p0: CGPoint, end p1: CGPoint, lineColor: UIColor) {
         self.layoutIfNeeded()
         let shapeLayer = CAShapeLayer()
@@ -207,6 +206,34 @@ extension UIView {
             }
         }
     }
+    func addGradiant() {
+        let GradientLayerName = "gradientLayer"
+        
+        if let oldlayer = self.layer.sublayers?.filter({$0.name == GradientLayerName}).first {
+            oldlayer.removeFromSuperlayer()
+        }
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.colors = [Color.blue.cgColor,Color.sky.cgColor]
+        gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
+        gradientLayer.frame = self.bounds
+        gradientLayer.name = GradientLayerName
+        self.clipsToBounds = true
+        self.layer.insertSublayer(gradientLayer, at: 0)
+    }
+    @IBInspectable
+       var roundedBottomCorners: CGFloat {
+           get {
+               return layer.shadowRadius
+           }
+           set {
+               layer.cornerRadius = newValue
+               if #available(iOS 11.0, *) {
+                layer.maskedCorners = [.layerMaxXMaxYCorner,.layerMinXMaxYCorner]
+               }
+           }
+       }
 }
 
 extension String {

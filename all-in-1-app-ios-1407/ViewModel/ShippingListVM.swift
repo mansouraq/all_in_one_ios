@@ -31,5 +31,6 @@ extension ShippingListVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         objShippingListVM.selectedIndex = indexPath.row
         tblVwShipping.reloadData()
+        popToBack()
     }
 }
